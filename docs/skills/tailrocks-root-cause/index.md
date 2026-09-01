@@ -1,11 +1,11 @@
 ---
 title: "Tailrocks: tailrocks-root-cause"
-description: ">-"
+description: " Use only when the user explicitly requests this skill. Diagnose one proven defect, reported friction, or failed guarantee read-only; derive the bounded causal class and strongest feasible corrective design. Returns an approval-ready contract only and never edits or contains harm."
 ---
 
 Generated from [tailrocks-root-cause/SKILL.md](https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-root-cause/SKILL.md).
 
->-
+ Use only when the user explicitly requests this skill. Diagnose one proven defect, reported friction, or failed guarantee read-only; derive the bounded causal class and strongest feasible corrective design. Returns an approval-ready contract only and never edits or contains harm.
 
 [Read the complete skill definition](definition.md).
 

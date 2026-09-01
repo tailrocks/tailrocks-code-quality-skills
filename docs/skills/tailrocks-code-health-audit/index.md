@@ -1,11 +1,11 @@
 ---
 title: "Tailrocks: tailrocks-code-health-audit"
-description: ">-"
+description: " Use only when the user explicitly requests this skill. Audit one code-health debt class read-only: inventory gates and exceptions, measure the baseline, evaluate shrink-only enforcement and verification placement, and emit fixed-ID evidence without installing or editing."
 ---
 
 Generated from [tailrocks-code-health-audit/SKILL.md](https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-code-health-audit/SKILL.md).
 
->-
+ Use only when the user explicitly requests this skill. Audit one code-health debt class read-only: inventory gates and exceptions, measure the baseline, evaluate shrink-only enforcement and verification placement, and emit fixed-ID evidence without installing or editing.
 
 [Read the complete skill definition](definition.md).
 

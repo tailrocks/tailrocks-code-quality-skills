@@ -1,11 +1,11 @@
 ---
 title: "Tailrocks: tailrocks-code-health"
-description: ">-"
+description: " Use only when the user explicitly requests this skill. Establish or tighten one explicitly approved shrink-only code-health ratchet for architecture, lint, dependency, flake, defect, documentation, or verification debt. Audit and measurement-only reporting use tailrocks-code-health-audit."
 ---
 
 Generated from [tailrocks-code-health/SKILL.md](https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-code-health/SKILL.md).
 
->-
+ Use only when the user explicitly requests this skill. Establish or tighten one explicitly approved shrink-only code-health ratchet for architecture, lint, dependency, flake, defect, documentation, or verification debt. Audit and measurement-only reporting use tailrocks-code-health-audit.
 
 [Read the complete skill definition](definition.md).
 
