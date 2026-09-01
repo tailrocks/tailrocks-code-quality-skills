@@ -1,5 +1,18 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "tailrocks-code-quality-skills",
-  "description": "Cross-agent Tailrocks skills for strict Rust, Axum, TypeScript, TanStack, native macOS Swift with Liquid Glass, code-health ratchets, and the roadmap delivery pipeline (idea, brainstorm, research, record-decision, finalize, plan, reconcile, portable goal handoff)"
+  "description": "Evidence-driven code-health audits, root-cause diagnosis, simplification, remediation, and repository instruction topology.",
+  "keywords": [
+    "code-quality",
+    "code-health",
+    "root-cause",
+    "remediation",
+    "simplification",
+    "architecture",
+    "AGENTS.md",
+    "security",
+    "technical-debt"
+  ],
+  "homepage": "https://github.com/tailrocks/tailrocks-code-quality-skills",
+  "repository": "https://github.com/tailrocks/tailrocks-code-quality-skills"
 }

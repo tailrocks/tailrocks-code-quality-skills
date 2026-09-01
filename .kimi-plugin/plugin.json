@@ -1,39 +1,17 @@
 {
   "name": "tailrocks-code-quality-skills",
   "version": "0.28.0",
-  "description": "Cross-agent Tailrocks skills for strict Rust, Axum, TypeScript, TanStack, native macOS Swift with Liquid Glass, code-health ratchets, and the roadmap delivery pipeline (idea, brainstorm, research, record-decision, finalize, plan, reconcile, portable goal handoff)",
+  "description": "Evidence-driven code-health audits, root-cause diagnosis, simplification, remediation, and repository instruction topology.",
   "keywords": [
-    "tailrocks",
-    "rust",
-    "edition-2024",
-    "skills",
-    "best-practices",
-    "clippy",
-    "rustfmt",
-    "axum",
-    "typescript",
-    "bun",
-    "tanstack",
-    "cargo-deny",
-    "nextest",
-    "mise",
-    "workspace",
-    "code-review",
+    "code-quality",
+    "code-health",
     "root-cause",
+    "remediation",
+    "simplification",
     "architecture",
-    "redesign",
-    "first-principles",
-    "correctness",
-    "research",
-    "roadmap",
-    "planning",
-    "goal",
-    "swift",
-    "swiftui",
-    "appkit",
-    "macos",
-    "liquid-glass",
-    "accessibility"
+    "AGENTS.md",
+    "security",
+    "technical-debt"
   ],
   "author": {
     "name": "tailrocks",
@@ -43,7 +21,22 @@
   "license": "Apache-2.0",
   "skills": "./skills/",
   "interface": {
-    "displayName": "Tailrocks Skills",
-    "shortDescription": "Strict Rust, TypeScript, and native macOS engineering workflows"
-  }
+    "displayName": "Code Quality Skills",
+    "shortDescription": "Code-health, diagnosis, remediation, and simplification workflows.",
+    "longDescription": "Evidence-driven code-health audits, root-cause diagnosis, simplification, remediation, and repository instruction topology.",
+    "capabilities": [
+      "Review",
+      "Audit",
+      "Diagnose",
+      "Remediate",
+      "Simplify"
+    ],
+    "websiteURL": "https://github.com/tailrocks/tailrocks-code-quality-skills",
+    "defaultPrompt": [
+      "Audit this repository’s code health.",
+      "Find the root cause of this defect.",
+      "Review this change for removable complexity."
+    ]
+  },
+  "repository": "https://github.com/tailrocks/tailrocks-code-quality-skills"
 }
