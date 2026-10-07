@@ -1,12 +1,15 @@
 # Finding routing
 
-The report names one next owner without invoking it. HIGH-confidence LOW-risk
-work with no open decision may route to `tailrocks-improve-plan`. Direction,
-cross-session scope, unresolved decisions, lower confidence, security-boundary
-uncertainty, or MEDIUM/HIGH fix risk routes to `tailrocks-seed-roadmap`.
+The report names one next owner without invoking it. Route
+HIGH-confidence LOW-risk work with no open decision to
+`tailrocks-improve-plan`. Route direction, cross-session scope,
+unresolved decisions, lower confidence, security-boundary
+uncertainty, and MEDIUM or HIGH fix risk to
+`tailrocks-seed-roadmap`.
 
-A recurring defect class routes to the root-cause owner; a read-only removable
-code candidate routes to `tailrocks-simplify-audit`, while only an explicitly
-approved removal routes to `tailrocks-simplify`; behavior-preserving structure
-routes to its refactor owner; branch findings route to pull request review.
-Effort never lowers risk or makes known-wrong behavior acceptable.
+Route a recurring defect class to the root-cause owner. Route a
+read-only removable code candidate to `tailrocks-simplify-audit`.
+Route only an explicitly approved removal to `tailrocks-simplify`.
+Route behavior-preserving structure to its refactor owner. Route
+branch findings to pull-request review. Effort never lowers risk.
+Effort never makes known-wrong behavior acceptable.

@@ -1,4 +1,4 @@
 # Defect to Gate Ledger
 
-| Date | Symptom | Enabling condition | Characterization test | Gate/lint/budget adopted or reason none |
-|---|---|---|---|---|
+| Date | Symptom | Enabling condition | Proof test | Gate or reason |
+| ---- | ------- | ------------------ | ---------- | -------------- |

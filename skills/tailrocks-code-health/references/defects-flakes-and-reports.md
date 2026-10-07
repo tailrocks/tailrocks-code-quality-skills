@@ -1,14 +1,15 @@
-<!-- tailrocks-code-health-audit:start -->
-# Defect, Flake, and Report Criteria
+# Defect, flake, and report criteria
 
-Every escaped defect has a dated identity, symptom, architectural enabling
-condition, characterization proof, and permanent gate or a reason no gate fits.
-A symptom-only fix retains an explicit root-cause item.
+Every escaped defect has a dated identity, a symptom, an
+architectural enabling condition, and characterization proof. It
+has a permanent gate or a reason that no gate fits. A
+symptom-only fix retains an explicit root-cause item.
 
-Retries expose flakes; they never forgive them. Pass-on-retry stays visible. An
-owned presence ledger records exact test identity, owner, reason, issue, and
-since date. Unlisted flakes and stale resolved entries fail. Machine-readable
-test artifacts retain trend, count, and runtime evidence.
+Retries expose flakes. They never forgive them. Pass-on-retry
+stays visible. An owned presence ledger records the exact test
+identity, owner, reason, issue, and since date. Unlisted flakes
+and stale resolved entries fail. Machine-readable test artifacts
+retain trend, count, and runtime evidence.
 
 Every project-owned gate emits one semantic violation model:
 
@@ -16,13 +17,7 @@ Every project-owned gate emits one semantic violation model:
 schema, gate, ok, rule, file, line?, why, fix, rerun
 ```
 
-Human, versioned JSON, and CI renderers preserve identical pass/fail semantics.
-Non-empty violations exit nonzero, escape control characters, and name the
-narrowest correction and rerun command.
-<!-- tailrocks-code-health-audit:end -->
-
-## Mutation adapter
-
-Establish may add the approved defect ledger, exact flake presence baseline, and
-renderer contract. Tighten only removes proved-resolved identities; it never
-adds a quarantine entry merely to make a failing run green.
+Human, versioned JSON, and CI renderers preserve identical
+pass and fail semantics. Non-empty violations exit nonzero,
+escape control characters, and name the narrowest correction
+and rerun command.
