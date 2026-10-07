@@ -47,10 +47,10 @@ Subagents inherit nothing. Restate these items in every brief:
   aesthetic taste. Skip this lane only when the repository ships
   no user interface.
 - **Agent legibility:** cold-read navigability, searchable names,
-  scoped instruction coverage, and conformance to the decided
-  languages, frameworks, package managers, tools, protocols, and
-  layering roles of the repository. Judge discoverability, not
-  language-level idiom.
+  and scoped instruction coverage. Also check conformance to the
+  decided languages, frameworks, package managers, tools,
+  protocols, and layering roles of the repository. Judge
+  discoverability, not language-level idiom.
 
 Security threat analysis and medium-specific visual conformance
 belong to their specialist owners. The common audit copies neither

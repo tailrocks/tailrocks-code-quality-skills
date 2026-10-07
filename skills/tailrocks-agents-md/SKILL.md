@@ -7,6 +7,7 @@ description: >-
   belong to the manual-only sibling skills.
 argument-hint: "<one rule and governed paths>"
 disable-model-invocation: false
+disableModelInvocation: false
 license: Apache-2.0
 user-invocable: true
 when_to_use: >-

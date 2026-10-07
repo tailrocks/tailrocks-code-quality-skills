@@ -18,7 +18,8 @@ $tailrocks-improve-audit ./my-repo
 
 The first form fits Claude Code. The second form fits Codex.
 The third form fits Kimi Code. The fourth form fits Muse,
-Antigravity, Grok, and OpenCode pickers. Amp has no slash
+Antigravity, and Grok pickers. OpenCode uses a prompt
+sentence instead. Amp has no slash
 invoke: ask the thread for the exact qualified skill by name.
 
 Thirteen skills need an explicit human command on every

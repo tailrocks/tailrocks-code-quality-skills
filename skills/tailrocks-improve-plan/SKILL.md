@@ -38,9 +38,10 @@ must not select it from task similarity.
 Obey the active user request first. If the request conflicts with a
 safety rule in this skill, stop. Report the conflict.
 
-Before any action, read `references/runtime-trust.md`,
-`references/artifact-boundary.md`,
-`references/eligibility.md`, and `references/plan-format.md`.
+Before any action, read `references/runtime-trust.md` and
+`references/artifact-boundary.md`. Read
+`references/eligibility.md` in step 3 and
+`references/plan-format.md` in steps 4 through 6.
 Resolve each relative link against the directory that holds this
 SKILL.md file.
 

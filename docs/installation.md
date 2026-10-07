@@ -19,7 +19,7 @@ and explicit execution authority. Without authority, the
 skills record proof as not run. No skill needs `gh`.
 
 Vet the package before install. Read `plugin.json`, the host
-manifests, and the fourteen files under `skills/`. This
+manifests, and every file under `skills/`. This
 package ships skills and references only. It adds no hooks
 and no MCP servers.
 
@@ -386,7 +386,6 @@ set to `ask` on V1:
       "tailrocks-remediate": "ask",
       "tailrocks-simplify-audit": "ask",
       "tailrocks-simplify": "ask",
-      "tailrocks-agents-md": "ask",
       "tailrocks-agents-md-audit": "ask",
       "tailrocks-agents-md-sync": "ask"
     }
@@ -473,7 +472,7 @@ skill route, delete the copied skill directories.
 
 Limits and evidence: the plugin install accepts a local path
 only. There is no public marketplace catalog JSON. The root
-manifest must not carry the Antigravity schema; this package
+manifest must not carry the Antigravity schema. This package
 carries the portable Agent Plugins 1.0.0 schema (observed
 2026-10-07). Antigravity frontmatter supports only `name`
 and `description`, so user-only entry cannot be enforced
@@ -611,9 +610,9 @@ managed copy: reinstall after upstream changes.
 Limits and evidence: fields cap at 32 KB each and 64 KB
 total `systemPrompt`. Non-`.md` command files are ignored.
 Paths stay confined to the plugin root. Manifest names match
-`[a-z0-9][a-z0-9_-]{0,63}`; this package name fits (observed
+`[a-z0-9][a-z0-9_-]{0,63}`. This package name fits (observed
 2026-10-07). The `.kimi-plugin/plugin.json` manifest must
-set `skills` to `./skills/`; without it, Kimi reads a root
+set `skills` to `./skills/`. Without it, Kimi reads a root
 SKILL.md instead. This package sets it (observed
 2026-10-07). Invocation nesting caps at three levels.
 Duplicates resolve Project over User over Extra over

@@ -54,11 +54,11 @@ files. They are not install proofs:
 
 - All fourteen frontmatter names match their skill
   directories.
-- All names are 32 characters or less; all descriptions are
+- All names are 32 characters or less. All descriptions are
   301 characters or less. The Amp, OpenCode, and Kimi caps
   fit.
 - The root manifest carries the Agent Plugins 1.0.0 schema
   id.
 - The Kimi manifest sets `skills` to `./skills/`.
-- Every payload file under `skills/` is text; no file
+- Every payload file under `skills/` is text. No file
   carries the executable bit.

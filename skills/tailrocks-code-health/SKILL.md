@@ -46,7 +46,7 @@ The skill accepts `establish` or `tighten` with the approved debt
 class, metric, and paths. Refuse an audit-shaped request,
 unselected debt, and permission inferred from a finding.
 
-Copy an absent baseline artifact from `templates/` instead of
+Copy an absent baseline artifact from `assets/` instead of
 reconstructing it:
 
 | Template | Destination | Consumed by |
@@ -84,7 +84,7 @@ reconstructing it:
    controls of step 5. Otherwise do not run it.
 
 3. **Select canonical bytes.** Copy an absent baseline artifact
-   from `templates/`. Preserve stronger compatible local rules.
+   from `assets/`. Preserve stronger compatible local rules.
    Take the bound only from the measured state of this
    repository. Never import another project count.
 

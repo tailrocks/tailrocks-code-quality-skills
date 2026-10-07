@@ -11,20 +11,20 @@ need an explicit human command.
 
 | Skill | Task |
 | --- | --- |
-| `tailrocks-improve-audit` | Audit a repository. User-only. |
-| `tailrocks-improve-security-audit` | Audit security. User-only. |
-| `tailrocks-improve-plan` | Write one standalone plan. User-only. |
-| `tailrocks-improve-execution` | Execute one plan in isolation. User-only. |
-| `tailrocks-improve-reconcile` | Reconcile the plan backlog. User-only. |
-| `tailrocks-code-health-audit` | Measure one debt class. User-only. |
-| `tailrocks-code-health` | Establish or tighten one bound. User-only. |
-| `tailrocks-root-cause` | Diagnose one defect. User-only. |
-| `tailrocks-remediate` | Apply one approved correction. User-only. |
-| `tailrocks-simplify-audit` | Find measured removals. User-only. |
-| `tailrocks-simplify` | Apply approved removals. User-only. |
-| `tailrocks-agents-md` | Add one instruction rule. |
-| `tailrocks-agents-md-audit` | Audit instructions. User-only. |
-| `tailrocks-agents-md-sync` | Apply one approved repair. User-only. |
+| [`tailrocks-improve-audit`](skills/tailrocks-improve-audit/SKILL.md) | Audit a repository. User-only. |
+| [`tailrocks-improve-security-audit`](skills/tailrocks-improve-security-audit/SKILL.md) | Audit security. User-only. |
+| [`tailrocks-improve-plan`](skills/tailrocks-improve-plan/SKILL.md) | Write one standalone plan. User-only. |
+| [`tailrocks-improve-execution`](skills/tailrocks-improve-execution/SKILL.md) | Execute one plan in isolation. User-only. |
+| [`tailrocks-improve-reconcile`](skills/tailrocks-improve-reconcile/SKILL.md) | Reconcile the plan backlog. User-only. |
+| [`tailrocks-code-health-audit`](skills/tailrocks-code-health-audit/SKILL.md) | Measure one debt class. User-only. |
+| [`tailrocks-code-health`](skills/tailrocks-code-health/SKILL.md) | Establish or tighten one bound. User-only. |
+| [`tailrocks-root-cause`](skills/tailrocks-root-cause/SKILL.md) | Diagnose one defect. User-only. |
+| [`tailrocks-remediate`](skills/tailrocks-remediate/SKILL.md) | Apply one approved correction. User-only. |
+| [`tailrocks-simplify-audit`](skills/tailrocks-simplify-audit/SKILL.md) | Find measured removals. User-only. |
+| [`tailrocks-simplify`](skills/tailrocks-simplify/SKILL.md) | Apply approved removals. User-only. |
+| [`tailrocks-agents-md`](skills/tailrocks-agents-md/SKILL.md) | Add one instruction rule. |
+| [`tailrocks-agents-md-audit`](skills/tailrocks-agents-md-audit/SKILL.md) | Audit instructions. User-only. |
+| [`tailrocks-agents-md-sync`](skills/tailrocks-agents-md-sync/SKILL.md) | Apply one approved repair. User-only. |
 
 Each skill body lives in its own directory. Read
 `skills/tailrocks-improve-audit/SKILL.md` for one complete
@@ -91,15 +91,15 @@ when it is no longer needed. Commands per agent:
 
 - Claude Code: `claude plugin update
   tailrocks-code-quality-skills@tailrocks` or `claude plugin
-  marketplace update tailrocks`; remove with `claude plugin
+  marketplace update tailrocks`. Remove with `claude plugin
   uninstall tailrocks-code-quality-skills`.
-- Codex: `codex plugin marketplace upgrade tailrocks`;
-  remove with `codex plugin remove
+- Codex: `codex plugin marketplace upgrade tailrocks`.
+  Remove with `codex plugin remove
   tailrocks-code-quality-skills@tailrocks`.
 - Muse: `muse plugins marketplace update tailrocks`, then
-  the remove plus install sequence; remove with `muse
+  the remove plus install sequence. Remove with `muse
   plugins remove tailrocks-code-quality-skills@tailrocks`.
-- Kimi session: no `update` subcommand; remove with
+- Kimi session: no `update` subcommand. Remove with
   `/plugins remove tailrocks-code-quality-skills`, then
   `/reload`.
 - Amp, OpenCode, Antigravity, Grok: see

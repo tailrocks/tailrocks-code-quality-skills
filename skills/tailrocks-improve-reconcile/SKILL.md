@@ -39,9 +39,10 @@ must not select it from task similarity.
 Obey the active user request first. If the request conflicts with a
 safety rule in this skill, stop. Report the conflict.
 
-Before any action, read `references/runtime-trust.md` and
-`references/reconciliation.md`. Resolve each relative link against
-the directory that holds this SKILL.md file.
+Before any action, read `references/runtime-trust.md`. Read
+`references/reconciliation.md` in steps 2 through 4. Resolve
+each relative link against the directory that holds this
+SKILL.md file.
 
 `--deep` re-verifies every indexed row without sampling.
 `--batch` makes status selection deterministic and
