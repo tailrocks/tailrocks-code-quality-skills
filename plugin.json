@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tailrocks-code-quality-skills",
-  "version": "0.28.0",
+  "version": "0.28.1",
   "description": "Evidence-driven code audits, root-cause diagnosis, simplification, remediation, improvement plans, and repository instruction policy.",
   "author": {
     "name": "tailrocks",
