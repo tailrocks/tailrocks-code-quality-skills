@@ -1,6 +1,6 @@
 {
   "name": "tailrocks-code-quality-skills",
-  "version": "0.28.0",
+  "version": "0.28.1",
   "description": "Evidence-driven code audits, root-cause diagnosis, simplification, remediation, improvement plans, and repository instruction policy.",
   "skills": "./skills/",
   "interface": {

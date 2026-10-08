@@ -63,6 +63,12 @@ The package now holds fourteen skills. Thirteen are
 user-only. `tailrocks-agents-md` is model-selectable for
 policy only.
 
+## 0.28.1 - 2026-10-08
+
+- Regenerated CI with Velnor Actions 0.1.4.
+- Replaced the `.github/CLAUDE.md` symlink with a regular pointer
+  file. Installers that reject symlinks now accept the package.
+
 ## 0.28.0 - 2026-10-07
 
 Twelve-skill package at commit `e63a82f28b688a7fada418e615aa9ec0eeec4c04`
