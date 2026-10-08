@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.28.1 - 2026-10-08
 
 Applied the common active-package structure on branch
 `standardize/package-rewrite`:
@@ -62,8 +62,6 @@ English, Issue 9 rules, with the common body order:
 The package now holds fourteen skills. Thirteen are
 user-only. `tailrocks-agents-md` is model-selectable for
 policy only.
-
-## 0.28.1 - 2026-10-08
 
 - Regenerated CI with Velnor Actions 0.1.4.
 - Replaced the `.github/CLAUDE.md` symlink with a regular pointer
