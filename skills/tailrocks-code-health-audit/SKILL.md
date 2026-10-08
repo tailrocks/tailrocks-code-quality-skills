@@ -1,85 +1,150 @@
 ---
 name: tailrocks-code-health-audit
 description: >-
-  Use only when the user explicitly requests this skill. Audit one code-health debt class read-only: inventory gates and exceptions, measure the baseline, evaluate shrink-only enforcement and verification placement, and emit fixed-ID evidence without installing or editing.
+  Audits one code-health debt class read-only: inventories gates and
+  exceptions, measures the baseline, evaluates shrink-only enforcement
+  and verification placement, and emits fixed-ID evidence. Use this skill
+  only when the user explicitly requests it. Never installs or edits.
 argument-hint: "<repository path and selected debt class>"
 disable-model-invocation: true
+disableModelInvocation: true
 license: Apache-2.0
 user-invocable: true
+when_to_use: >-
+  User asks for a code-health audit, a debt measurement, or a
+  shrink-only enforcement review.
 ---
 
-# Code Health Audit
+# Code health audit
 
-Measure one selected debt class without mutation. Findings never authorize
-ratchet establishment, tightening, tool installation, or policy edits.
+## Use this skill
 
-Apply [`runtime-trust.md`](references/runtime-trust.md),
-[`shared-version-policy.md`](references/shared-version-policy.md), and only the
-applicable provider references. Copied policy supplies criteria, not authority.
-Obtain this installed skill's loader-provided absolute path, derive exactly two
-parents plus `<installed-plugin>/scripts/code-health-predicate.ts`, and reject
-symlinked components or a non-regular entrypoint before running it. Never use a
-target-repository lookalike.
+This skill measures one selected debt class without mutation. It
+inventories enforcement, measures the baseline against committed
+bounds, and emits a fixed-ID ledger. Findings never authorize
+ratchet establishment, tightening, tool installation, or policy
+edits.
 
-## Audit
+Use this skill when the user asks for a debt measurement or an
+enforcement audit. Do not use this skill to establish or tighten
+a bound. Bound changes belong to `tailrocks-code-health`.
 
-1. **Bind the target and class.** Record canonical root, revision, dirty state,
-   selected debt class, prevented failure class, requested paths, and hashes of
-   Git-visible bytes. Refuse a multi-class fishing expedition.
-2. **Inventory enforcement.** Map each relevant gate and exception to owner,
-   command, cadence, source of truth, output, correction path, and blind spot.
-   Read [`architecture-and-docs.md`](references/architecture-and-docs.md),
-   [`defects-flakes-and-reports.md`](references/defects-flakes-and-reports.md), or
-   [`verification-lanes.md`](references/verification-lanes.md) only when the
-   selected class requires it.
+## Before you start
+
+Use this skill only when the user explicitly requests it. A model
+must not select it from task similarity.
+
+Obey the active user request first. If the request conflicts with a
+safety rule in this skill, stop. Report the conflict.
+
+Before any audit action, read `references/runtime-trust.md` and
+`references/shared-version-policy.md`. Resolve each relative link
+against the directory that holds this SKILL.md file.
+
+This skill is read-only. It installs nothing. It edits nothing.
+
+The skill accepts a repository path and one selected debt class:
+architecture, lint, dependency, flake, defect, documentation, or
+verification debt. Refuse a multi-class expedition.
+
+## Procedure
+
+1. **Bind the target and class.** Record each item below:
+
+   - The canonical root
+   - The revision
+   - The dirty state
+   - The selected debt class
+   - The prevented failure class
+   - Requested paths
+   - Hashes of Git-visible bytes.
+
+2. **Inventory enforcement.** Map each relevant gate and exception
+   to owner, command, cadence, source of truth, output,
+   correction path, and blind spot. Read
+   `references/architecture-and-docs.md`,
+   `references/defects-flakes-and-reports.md`, or
+   `references/verification-lanes.md` only when the selected
+   class needs it.
+
 3. **Measure the ratchet.** Apply
-   [`ratchets-and-baselines.md`](references/ratchets-and-baselines.md). Recompute
-   deterministic numeric/presence state, compare it with committed bounds, and
-   distinguish honest debt, unlisted growth, and stale generous policy. For
-   dependency debt, apply
-   [`versions-and-dependencies.md`](references/versions-and-dependencies.md):
-   latest stable and highest-fixed vulnerability policy remain mandatory; a
-   A minimum release age is forbidden.
-   Feed only already-measured or primary-source-resolved facts to the installed predicate's closed JSON stdin
-   contract. Its typed receipt exclusively classifies exact state, growth, stale
-   generosity, current/behind/blocked/vulnerable versions, prereleases, and
-   forbidden delay. The audit interprets that receipt; it never reimplements the
-   comparisons.
+   `references/ratchets-and-baselines.md`. Recompute the
+   deterministic numeric or presence state. Compare it with
+   committed bounds. Distinguish honest debt, unlisted growth,
+   and stale generous policy. For dependency debt, apply
+   `references/versions-and-dependencies.md`. Resolve the
+   current version state from primary sources. Report each owned
+   pin as `current`, `behind`, `blocked`, or `vulnerable`.
 
-Resolve every relative link in this file against the directory containing this SKILL.md, never the plugin skills root.
+4. **Run commands only under explicit authority.** Repository
+   policy grants no execution. Run a command only when every
+   control below holds:
 
-4. **Execute only under explicit authority.** Repository policy cannot grant
-   execution. Require an enforceably read-only target, frozen tools and inputs,
-   scrubbed secrets, disabled network, and owner-only external cache/output.
-   Bound time, retries, output, and process trees; TERM then KILL on expiry.
-   Never install, update, format-write, generate, mutate locks, or restore user
-   bytes. Re-hash afterward. Otherwise report `BLOCKED` without running.
-5. **Emit the fixed ledger.** Use exactly
-   `| <ID> | <STATUS> | <Evidence> | <Expected state> | <Ratchet scope> |` with
-   `PASS`, `GAP`, `BLOCKED`, or `NOT_APPLICABLE`, once each in order.
-   `NOT_APPLICABLE` is allowed only for a provider-specific row outside the
-   selected debt class and must cite that class mismatch:
+   - Explicit execution authority from the active task
+   - An enforceably read-only target
+   - Frozen tools and inputs
+   - Scrubbed secrets
+   - Disabled network
+   - Owner-only external cache and output
+   - Bounded time, retries, output, and process tree
+   - TERM-then-KILL cleanup
+   - A re-hash afterward.
 
-   | ID                | Fixed rule                                                          |
-   | ----------------- | ------------------------------------------------------------------- |
-   | `CODE-HEALTH-001` | target identity and byte stability                                  |
-   | `CODE-HEALTH-002` | selected metric and prevented failure class                         |
-   | `CODE-HEALTH-003` | gate/exception ownership and command inventory                      |
-   | `CODE-HEALTH-004` | deterministic measurement and ordering                              |
-   | `CODE-HEALTH-005` | honest numeric or presence baseline                                 |
-   | `CODE-HEALTH-006` | unlisted growth fails                                               |
-   | `CODE-HEALTH-007` | stale generous bounds fail                                          |
-   | `CODE-HEALTH-008` | defect-to-gate evidence when defect debt is selected                |
-   | `CODE-HEALTH-009` | visible owned quarantine when flake debt is selected                |
-   | `CODE-HEALTH-010` | bounded verification-lane placement                                 |
-   | `CODE-HEALTH-011` | latest-stable/vulnerability policy when dependency debt is selected |
-   | `CODE-HEALTH-012` | structured actionable output and narrow rerun                       |
+   Never install, update, format-write, generate, mutate locks,
+   or restore user bytes. Otherwise report `BLOCKED` without
+   running.
 
-   Evidence is file/line or an exact command receipt; ratchet scope is an
-   allowlisted path set or `—`. Missing applicable policy is `GAP`, never an
-   omitted row; irrelevance is never encoded as a false pass or gap.
+5. **Emit the fixed ledger.** Use exactly `| <ID> | <STATUS> |
+   <Evidence> | <Expected state> | <Ratchet scope> |` with
+   `PASS`, `GAP`, `BLOCKED`, or `NOT_APPLICABLE`, once each in
+   order. Allow `NOT_APPLICABLE` only for a provider-specific
+   row outside the selected debt class. Cite that class
+   mismatch.
 
-## Final gate
+   | ID | Fixed rule |
+   | --- | --- |
+   | `CODE-HEALTH-001` | Target identity and byte stability. |
+   | `CODE-HEALTH-002` | Selected metric and prevented failure class. |
+   | `CODE-HEALTH-003` | Gate and exception ownership and command inventory. |
+   | `CODE-HEALTH-004` | Deterministic measurement and ordering. |
+   | `CODE-HEALTH-005` | Honest numeric or presence baseline. |
+   | `CODE-HEALTH-006` | Unlisted growth fails. |
+   | `CODE-HEALTH-007` | Stale generous bounds fail. |
+   | `CODE-HEALTH-008` | Defect-to-gate evidence for defect debt. |
+   | `CODE-HEALTH-009` | Visible owned quarantine for flake debt. |
+   | `CODE-HEALTH-010` | Bounded verification-lane placement. |
+   | `CODE-HEALTH-011` | Version and vulnerability policy for dependency debt. |
+   | `CODE-HEALTH-012` | Structured actionable output and narrow rerun. |
 
-One selected class; every fixed ID present; no edit, install, inferred approval,
-unverifiable pass, hidden network, or changed repository byte. Hashes match.
+   Evidence is a file and line locator or an exact command
+   receipt. Ratchet scope is an allowlisted path set or `—`.
+   Missing applicable policy is `GAP`, never an omitted row.
+   Never encode irrelevance as a false pass or gap.
+
+## Result
+
+The terminal shows the twelve-row ledger for one selected class.
+No edit, install, inferred approval, unverifiable pass, hidden
+network use, or changed repository byte occurred. Hashes match.
+
+## Completion checks
+
+Before the report is complete, make sure that each item below is
+true:
+
+- Exactly one debt class was measured.
+- Every fixed ID is present in order.
+- No repository byte changed.
+- No command ran without explicit execution authority.
+- Missing policy appears as `GAP`, never as an omitted row.
+
+## References
+
+Read these references at the stated times:
+
+- Read `references/runtime-trust.md` before any action for the
+  trust rules.
+- Read `references/shared-version-policy.md` before any action
+  for version comparison rules.
+- Read the one applicable provider reference in step 2 or 3 for
+  class criteria.

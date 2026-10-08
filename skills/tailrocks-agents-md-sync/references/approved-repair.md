@@ -1,11 +1,19 @@
 # Approved topology repair
 
-The approval names exact repository, HEAD, finding identity, affected paths,
-preimage hashes, intended content, client basenames, and raw link targets. Any
-drift invalidates it. Approval for one link does not authorize rule movement;
-approval for one deletion does not authorize nearby cleanup.
+The approval names the exact repository, HEAD, finding identity,
+affected paths, preimage hashes, intended content, client
+basenames, and raw link targets. Any drift invalidates it.
+Approval for one link authorizes no rule movement. Approval for
+one deletion authorizes no nearby cleanup.
 
-Order: discover; validate preimages and parents; stage reviewed content and link
-operations; compare-and-swap publish; verify exact topology and bytes. On failure,
-restore only bytes and links still owned by the transaction. Preserve and name
-every recovery artifact when ownership is uncertain.
+Use this order:
+
+1. Discover.
+2. Validate preimages and parents.
+3. Stage reviewed content and link operations.
+4. Publish with compare-and-swap.
+5. Verify the exact topology and bytes.
+
+On failure, restore only bytes and links still owned by the
+transaction. When ownership is uncertain, preserve and name
+every recovery artifact.

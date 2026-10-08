@@ -1,23 +1,5 @@
 {
   "name": "tailrocks-code-quality-skills",
-  "description": "Evidence-driven code-health audits, root-cause diagnosis, simplification, remediation, and repository instruction topology.",
   "version": "0.28.0",
-  "author": {
-    "name": "tailrocks",
-    "url": "https://github.com/tailrocks"
-  },
-  "homepage": "https://github.com/tailrocks/tailrocks-code-quality-skills",
-  "repository": "https://github.com/tailrocks/tailrocks-code-quality-skills",
-  "license": "Apache-2.0",
-  "keywords": [
-    "code-quality",
-    "code-health",
-    "root-cause",
-    "remediation",
-    "simplification",
-    "architecture",
-    "AGENTS.md",
-    "security",
-    "technical-debt"
-  ]
+  "description": "Evidence-driven code audits, root-cause diagnosis, simplification, remediation, improvement plans, and repository instruction policy."
 }
