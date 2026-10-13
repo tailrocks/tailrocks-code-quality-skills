@@ -120,14 +120,14 @@ velnor-actions generate --output-dir /private/tmp/velnor-preview
 diff -r --brief .github /private/tmp/velnor-preview/.github
 ```
 
-Expected result: empty diff. The 0.1.0 generator from
-velnor-new `47c7b5b2e` preserves
+Expected result: empty diff. The 0.1.7 generator from
+velnor-new `43a8a872a` preserves
 `.github/PULL_REQUEST_TEMPLATE.md`. The comparison showed
 no differences.
 
 ## Policy version and update
 
-- alint: v0.17.0.
+- alint: v0.18.1.
 - Shared profile: `standards/alint/active.yml` at
   tailrocks-skills commit
   `7bdfcdd610aa95bb13f62261cda1a53f0fa870d3`.
@@ -158,7 +158,7 @@ generate` writes `.github/` from it. Never hand-edit
 `.github/` as the fix for a workflow problem. Change the
 config and regenerate.
 
-The 0.1.0 generator from velnor-new `47c7b5b2e`
+The 0.1.7 generator from velnor-new `43a8a872a`
 preserves `.github/PULL_REQUEST_TEMPLATE.md` across
 regenerates. The template hash did not change. No restore
 step is necessary.
