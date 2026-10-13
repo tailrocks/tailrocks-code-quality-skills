@@ -120,8 +120,8 @@ velnor-actions generate --output-dir /private/tmp/velnor-preview
 diff -r --brief .github /private/tmp/velnor-preview/.github
 ```
 
-Expected result: empty diff. The 0.1.7 generator from
-velnor-new `43a8a872a` preserves
+Expected result: empty diff. The 0.1.8 generator from
+velnor-new `7c594f7ae` preserves
 `.github/PULL_REQUEST_TEMPLATE.md`. The comparison showed
 no differences.
 
@@ -158,7 +158,7 @@ generate` writes `.github/` from it. Never hand-edit
 `.github/` as the fix for a workflow problem. Change the
 config and regenerate.
 
-The 0.1.7 generator from velnor-new `43a8a872a`
+The 0.1.8 generator from velnor-new `7c594f7ae`
 preserves `.github/PULL_REQUEST_TEMPLATE.md` across
 regenerates. The template hash did not change. No restore
 step is necessary.
