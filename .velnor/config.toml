@@ -10,7 +10,8 @@ schema = 1
 default_branch = "main"              # Push branch; required because CI checkouts have no origin/HEAD.
 
 [workflow.verify]
-jobs = ["alint"]
+jobs = ["alint", "strict-json", "frontmatter-id", "link-check"]
+lychee_args = ["--offline", "--include-fragments"]
 
 [discovery]
 exclude = ["skills/**/assets/**"]
