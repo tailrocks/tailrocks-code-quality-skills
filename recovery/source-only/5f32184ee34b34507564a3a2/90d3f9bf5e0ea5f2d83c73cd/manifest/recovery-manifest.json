@@ -1,0 +1,1796 @@
+{
+  "archive_directory_path_map": [
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/refs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/refs/heads",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/heads"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/refs/remotes",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/remotes"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/refs/remotes/origin",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/logs/refs/remotes/origin"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/a0",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/a0"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/b7",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/b7"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/e0",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/e0"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/e7",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/e7"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/eb",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/objects/eb"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/refs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/refs/heads",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/heads"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/refs/remotes",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/remotes"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/refs/remotes/origin",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".git/refs/remotes/origin"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/.github",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".github"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/.github.velnor-stage",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".github.velnor-stage"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/.github.velnor-stage/spare",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".github.velnor-stage/spare"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/.velnor",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": ".velnor"
+    },
+    {
+      "archive_directory": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/docs",
+      "empty_or_present": true,
+      "source_mode": 448,
+      "source_path": "docs"
+    }
+  ],
+  "archive_file_path_map": [
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/COMMIT_EDITMSG",
+      "blob_oid": "1f92a1c4f91db034dd446e5d72ac9d5ec1158749",
+      "git_mode": "100644",
+      "sha256": "2e9de2afcf63fbdbb7ed35d3bf37f66847880429b2810f7d4bdc130054addeb6",
+      "size": 82,
+      "source_mode": 384,
+      "source_path": ".git/COMMIT_EDITMSG"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/index",
+      "blob_oid": "be7e0326f43104ef5bbbe13c39824b2c47068427",
+      "git_mode": "100644",
+      "sha256": "980fb782b85cf24f545068e8f3576d4f8ad32dcf588b7ed194b546814967fa6d",
+      "size": 13955,
+      "source_mode": 384,
+      "source_path": ".git/index"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/HEAD",
+      "blob_oid": "9b104e7ba5ef87174ac092acfa96b4ee238b699d",
+      "git_mode": "100644",
+      "sha256": "2f0ce7ffab67d3dfe0fb22b4b2d9b639ed63266a98ccf726a60d199f6e03cdc0",
+      "size": 2078,
+      "source_mode": 384,
+      "source_path": ".git/logs/HEAD"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/refs/heads/chatgpt-web-validators-2026-10-12",
+      "blob_oid": "4b04721508c454cc7107be4198b9ac93e8bad6db",
+      "git_mode": "100644",
+      "sha256": "3d50461eb1315a8449b7cfea078ae17eff4333f5e180e90ee00fe2d3458842fc",
+      "size": 796,
+      "source_mode": 384,
+      "source_path": ".git/logs/refs/heads/chatgpt-web-validators-2026-10-12"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/logs/refs/remotes/origin/chatgpt-web-validators-2026-10-12",
+      "blob_oid": "e1836a48574fc05f281374cd7110ccf3da273d34",
+      "git_mode": "100644",
+      "sha256": "189e9c56419735009ff3c975498aee00b9236210f6cb0662d1dbe97c7d161501",
+      "size": 450,
+      "source_mode": 384,
+      "source_path": ".git/logs/refs/remotes/origin/chatgpt-web-validators-2026-10-12"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/a0/8dd8edd604063e2a8762bf5c74029aaa9d1351",
+      "blob_oid": "5a61f88c3f7775d43e6880ffc46c8fe94fbdb742",
+      "git_mode": "100644",
+      "sha256": "94a0d71ca05deb0cdb6a5b47b9eccb90ceb48455de8cfe230a691fff78d215f6",
+      "size": 1271,
+      "source_mode": 256,
+      "source_path": ".git/objects/a0/8dd8edd604063e2a8762bf5c74029aaa9d1351"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/b7/d79d57e76450fe6e2392c61d336dddda7e94e9",
+      "blob_oid": "0dfce9cf301c46f1a68c8c45b154005d4a895647",
+      "git_mode": "100644",
+      "sha256": "ff158b9291de298dd6634f425e7d9bff420336769a7c715d86da6b034b44fe6d",
+      "size": 138,
+      "source_mode": 256,
+      "source_path": ".git/objects/b7/d79d57e76450fe6e2392c61d336dddda7e94e9"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/e0/a54ffde537414825aac71f362d5d804c802a62",
+      "blob_oid": "a4458fb35f93fff59240b9db4d38159e1f5a6c19",
+      "git_mode": "100644",
+      "sha256": "51251f0ffc300123d9272e8eb08f96c350ef020856ae185ddbf41664ad495639",
+      "size": 55,
+      "source_mode": 256,
+      "source_path": ".git/objects/e0/a54ffde537414825aac71f362d5d804c802a62"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/e7/6be1abb79374fb06ee928e48675c372c4eb1cb",
+      "blob_oid": "1508ce69d69b760024da208425b45e4a4b408e0a",
+      "git_mode": "100644",
+      "sha256": "6fba28150b9466544d4d186d04eb8b69560e61078a89a292e3d5ab7cf1f14918",
+      "size": 55,
+      "source_mode": 256,
+      "source_path": ".git/objects/e7/6be1abb79374fb06ee928e48675c372c4eb1cb"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/objects/eb/4b4c3ca438a0137dc161a3296193ed43367679",
+      "blob_oid": "41d4cff7d884d9fc744790dd211f1c45a947a106",
+      "git_mode": "100644",
+      "sha256": "c00bc884b7323f3962d85e89a500dc06837739a3823500a2d0f2bcd373355b9c",
+      "size": 159,
+      "source_mode": 256,
+      "source_path": ".git/objects/eb/4b4c3ca438a0137dc161a3296193ed43367679"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/refs/heads/chatgpt-web-validators-2026-10-12",
+      "blob_oid": "28c3acac67917d86a6c5cbb456cdbdb2442795ee",
+      "git_mode": "100644",
+      "sha256": "c0eff1c7b7f394ff5b1d0534e02b30bfbbd8102bd0db3ca28442cd4cd2c44f61",
+      "size": 41,
+      "source_mode": 384,
+      "source_path": ".git/refs/heads/chatgpt-web-validators-2026-10-12"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin/refs/remotes/origin/chatgpt-web-validators-2026-10-12",
+      "blob_oid": "28c3acac67917d86a6c5cbb456cdbdb2442795ee",
+      "git_mode": "100644",
+      "sha256": "c0eff1c7b7f394ff5b1d0534e02b30bfbbd8102bd0db3ca28442cd4cd2c44f61",
+      "size": 41,
+      "source_mode": 384,
+      "source_path": ".git/refs/remotes/origin/chatgpt-web-validators-2026-10-12"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/.velnor/release-manifest.json",
+      "blob_oid": "7341cc988702a00c9abce76d0a3ddd3777502f81",
+      "git_mode": "100644",
+      "sha256": "eeecd05bd116504734e97b071a8f666e705c881184a1ff7f56012e4e8e81f39b",
+      "size": 953,
+      "source_mode": 384,
+      "source_path": ".velnor/release-manifest.json"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree/docs/maintenance.md",
+      "blob_oid": "e9ed37e39b7fa64690f8cbe10d98bb96cc84a48c",
+      "git_mode": "100644",
+      "sha256": "5912f9bebc1c1926ca5d03161d47ac19daf0598761a0db9b5073c3c84a52d861",
+      "size": 6467,
+      "source_mode": 384,
+      "source_path": "docs/maintenance.md"
+    },
+    {
+      "archive_path": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/manifest/snapshot-manifest.json",
+      "blob_oid": "2688b59a00dad3a6dfba0a95f880b4921579a4a9",
+      "git_mode": "100644",
+      "sha256": "388184864c477004d97db344c5c03157160e24ba14fea4f2f16effacaa1e514a",
+      "size": 21978,
+      "source_mode": 420,
+      "source_path": "/Users/donbeave/.local/state/github-repatriation/operations/user-request-20261013T2201Z/supplemental-icloud-28/reappeared-quarantine-recovery-v1/snapshots/5f32184ee34b34507564a3a2/be7542b1837f572d6fe44fd1/snapshot-manifest.json"
+    }
+  ],
+  "archive_files_exclude_dotgit_path_component": true,
+  "frozen_quarantine_scope_sha256": "a73bc4e46636990fd55c0c72f270d891600dbd74cec1f03eb334af8d7d6f4486",
+  "group_id": "5f32184ee34b34507564a3a2",
+  "incarnation_source_id": "90d3f9bf5e0ea5f2d83c73cd",
+  "index_exactly_matches_remote_pull8_tree": true,
+  "missing_tracked_worktree_paths": [
+    {
+      "blob_oid": "da881f0d97a11ab3ae324de12db8fc9420e767ff",
+      "mode": "100644",
+      "path": ".alint.yml",
+      "remote_refs_reachable": true,
+      "sha256": "a708e340a4cf23ac28fb162c03a2d258321496515efc6acdd057f621ae2310fe",
+      "size": 795
+    },
+    {
+      "blob_oid": "320c187d24dad6f9c430d304601dfc9d80264ead",
+      "mode": "100644",
+      "path": ".claude-plugin/plugin.json",
+      "remote_refs_reachable": true,
+      "sha256": "b7029c04421a3d25ca56f67f1b3f263b9ce81e23221f4c6104fa0f0ce15180ae",
+      "size": 223
+    },
+    {
+      "blob_oid": "a08dd8edd604063e2a8762bf5c74029aaa9d1351",
+      "mode": "100644",
+      "path": ".github/AGENTS.md",
+      "remote_refs_reachable": true,
+      "sha256": "e7cfdf22075e1ed5d755c0dc6d7e3ee032283cef6097945edf97da01f92b489b",
+      "size": 2739
+    },
+    {
+      "blob_oid": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "mode": "100644",
+      "path": ".github/CLAUDE.md",
+      "remote_refs_reachable": true,
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "size": 11
+    },
+    {
+      "blob_oid": "16fd09c4f0051f3a0aaf8a423f79f42930bb6e88",
+      "mode": "100644",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "remote_refs_reachable": true,
+      "sha256": "44a7c92b6d1b8432993bdd48783f185a48e3c3f11468cd615a8fe69911d32cf7",
+      "size": 689
+    },
+    {
+      "blob_oid": "b7d79d57e76450fe6e2392c61d336dddda7e94e9",
+      "mode": "100644",
+      "path": ".github/actionlint.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "b654b735a199dc415c17b05106cc1820f53566b328987f1822880e69ce1d2fa0",
+      "size": 150
+    },
+    {
+      "blob_oid": "c1f7b4d032cca4e50be98f9a1f47bd972b52be47",
+      "mode": "100644",
+      "path": ".github/actions/u26/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "88cd150e3705c174c837ab576c4fca8acc95e9018ace861c432b214c1bf50629",
+      "size": 1574
+    },
+    {
+      "blob_oid": "895c6ba00a52d59449eff60c34c2ac95dd2134a6",
+      "mode": "100644",
+      "path": ".github/actions/velnor-tool-seed/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "912b153c2c885d3754139e82a185e51c7b0c5a94adea3bb7d93cacf529e257be",
+      "size": 5909
+    },
+    {
+      "blob_oid": "89cb2705c721646378cc73aabe59a2bf58dadd24",
+      "mode": "100644",
+      "path": ".github/actions/velnor-tools-cache-restore/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "3cb6dda1f789147cb5f62b5a07913d4381330e5aa20386291c0a5846b5208a29",
+      "size": 2535
+    },
+    {
+      "blob_oid": "a40594b54de7524d79fb5393bfc4ab52042f044a",
+      "mode": "100644",
+      "path": ".github/actions/velnor-tools-prelude-u26/action.yml",
+      "remote_refs_reachable": true,
+      "sha256": "1885cab527ad97e6cd114b610f99b1b35c9984e1bf78e32a01957c8515a7798e",
+      "size": 902
+    },
+    {
+      "blob_oid": "11f1ca2a1ecbca02ceed3233a3b7d640a534709a",
+      "mode": "100644",
+      "path": ".github/scripts/velnor-tools-cache-identity.sh",
+      "remote_refs_reachable": true,
+      "sha256": "8cbfb0a9b7dcb964365cebd2caa825475b1f206332d3edd2ed0b9ef104ec1289",
+      "size": 5808
+    },
+    {
+      "blob_oid": "f63c601ea2fc4de0bed8d86576072f1b82bf2f75",
+      "mode": "100644",
+      "path": ".github/workflows/ci.yml",
+      "remote_refs_reachable": true,
+      "sha256": "fcba4d4e6b83532f034421bb7ef519d10ca42d03e233133a06d30fb4002dbc4b",
+      "size": 30278
+    },
+    {
+      "blob_oid": "9c07c1cc503660276fbefbf83c0a9fa964af450a",
+      "mode": "100644",
+      "path": ".gitignore",
+      "remote_refs_reachable": true,
+      "sha256": "41800e3b692ad00973c93e191196cfdb0d7657482e6b5066b25fd3c90c46fe56",
+      "size": 48
+    },
+    {
+      "blob_oid": "5c0e0f2fea4082595b44c2d4b3094df511a2406b",
+      "mode": "100644",
+      "path": ".kimi-plugin/plugin.json",
+      "remote_refs_reachable": true,
+      "sha256": "8c719e24fb21cd380b6852370bc7bf833ef9b98f6c806373d2ee90a70e32fa8c",
+      "size": 518
+    },
+    {
+      "blob_oid": "10f15e81f063223aa34ccd58e5fe008efee9220b",
+      "mode": "100644",
+      "path": ".velnor/config.toml",
+      "remote_refs_reachable": true,
+      "sha256": "2bfa2d253f9ca1efbf7d1d050a381e5fac0dd161415da975b61d89205c4996c3",
+      "size": 650
+    },
+    {
+      "blob_oid": "dbe3b8d63fd1046f9a3c0d032545f7bfe9f37573",
+      "mode": "100644",
+      "path": "AGENTS.md",
+      "remote_refs_reachable": true,
+      "sha256": "70ddc49af11c08d8c76f647c7c2ad422b6a597004b455c9c0799d89ad52c1b44",
+      "size": 1594
+    },
+    {
+      "blob_oid": "adede8fe6b23623ecf06bb05d5fa624df2e34c1f",
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "remote_refs_reachable": true,
+      "sha256": "db9a36b9bb671bf56d12730e1eddf983b8ffbe891582504a8e4dae0f4f322af2",
+      "size": 3107
+    },
+    {
+      "blob_oid": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "mode": "100644",
+      "path": "LICENSE",
+      "remote_refs_reachable": true,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size": 11357
+    },
+    {
+      "blob_oid": "1998a9afcda5c2af0848d606cd838019d8dd0a21",
+      "mode": "100644",
+      "path": "README.md",
+      "remote_refs_reachable": true,
+      "sha256": "d4b5d8e6feecdfdc03cec9e6c93c1a6a53f8e8f634c1a5065ca729e281c1357a",
+      "size": 5171
+    },
+    {
+      "blob_oid": "440877e0bccd1389e7811b6b85c29cbc3cbddda7",
+      "mode": "100644",
+      "path": "docs/README.md",
+      "remote_refs_reachable": true,
+      "sha256": "b2c6af545bc843c8bb2c563ce92285ce965705def93cba7a9a29bcbc860a6d9b",
+      "size": 2204
+    },
+    {
+      "blob_oid": "d1608e3c065b8a97ec13fef3d196fd5ff9d47718",
+      "mode": "100644",
+      "path": "docs/compatibility.md",
+      "remote_refs_reachable": true,
+      "sha256": "c88d384f6b591432de8b348513be3e8a66808f5be438c2ff5870afa431512e6b",
+      "size": 2637
+    },
+    {
+      "blob_oid": "62baa148c127f87ecc3355449518385144f5aeba",
+      "mode": "100644",
+      "path": "docs/installation.md",
+      "remote_refs_reachable": true,
+      "sha256": "9fe2ea03159a4c0b9b17f963ed7ada8a5181f39927f5a41862e979e613589cea",
+      "size": 22621
+    },
+    {
+      "blob_oid": "23778aff876407e980440541e3d72c02d9726f1a",
+      "mode": "100644",
+      "path": "docs/troubleshooting.md",
+      "remote_refs_reachable": true,
+      "sha256": "d70c650e17b762a78160c7ec3869e414d295444fdd2673d09a22bc6c605713b7",
+      "size": 3592
+    },
+    {
+      "blob_oid": "61559c494dfbfc73fe346f8a07953e4a2e2d9636",
+      "mode": "100644",
+      "path": "docs/usage.md",
+      "remote_refs_reachable": true,
+      "sha256": "41cc79e7b1c38f0f57435e4caa5b473491ad362293e8e9c311e6e2b05954d05a",
+      "size": 4405
+    },
+    {
+      "blob_oid": "9668fe65d132fc4d84e43f5df8cfac560a02f730",
+      "mode": "100644",
+      "path": "plugin.json",
+      "remote_refs_reachable": true,
+      "sha256": "3435079d0b13adc91ab49e4da0e36d7cf3d808662e525fe613ff3f5136f8461e",
+      "size": 751
+    },
+    {
+      "blob_oid": "20ada9f4a2be285a7a4a0de0dc6809849b8ca2f5",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-audit/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "26e8190488b7c89b0090847915a350ef6b8d8f4768528f34138497381e35bf77",
+      "size": 3848
+    },
+    {
+      "blob_oid": "0ca9910afd9baa433f86c211c29bc866fd042915",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-audit/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "85eafbba8ba611b4914b2f0ad087ffa27572b438baf24b2f2c4d687aee590d8e",
+      "size": 373
+    },
+    {
+      "blob_oid": "f9244f3931fea48ce6c654347921d8a88319dac6",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-audit/references/deletion-evidence.md",
+      "remote_refs_reachable": true,
+      "sha256": "9d8b502a0fc97374d77a8606d9d0e245636ca51c97ddc71a84394b6e11c4df57",
+      "size": 673
+    },
+    {
+      "blob_oid": "a10e4c89d5476cf683858332f0bd5d1554d46b2c",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-audit/references/instruction-policy.md",
+      "remote_refs_reachable": true,
+      "sha256": "c99b7073053fa7d077fb9ab6f150c6075b4663f78ebd0eee2aae2260120355af",
+      "size": 1648
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-audit/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "de6cd90f4509d02ab0235614e62bf5b126f3aba1",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-sync/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "92d02c076d85dfa94c2bcbd3dda22a0a3306a1f89aca70036d0fa36c5deedbcc",
+      "size": 4513
+    },
+    {
+      "blob_oid": "fbcb7638097a7fbbd078c167de1306377bd07063",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-sync/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "f6793f3131c95a5e3e7800e3199b647df12ecb8f740d5f74f879ba5d02160ed8",
+      "size": 338
+    },
+    {
+      "blob_oid": "cf88624f68facefe4368d355e8aa592706c83961",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-sync/references/approved-repair.md",
+      "remote_refs_reachable": true,
+      "sha256": "15b8d925af7adbc92722eabbf2975259bdb921a889d8c32413ec591f435f4ce5",
+      "size": 650
+    },
+    {
+      "blob_oid": "a10e4c89d5476cf683858332f0bd5d1554d46b2c",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-sync/references/instruction-policy.md",
+      "remote_refs_reachable": true,
+      "sha256": "c99b7073053fa7d077fb9ab6f150c6075b4663f78ebd0eee2aae2260120355af",
+      "size": 1648
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md-sync/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "5fc1f9b4057f5e76d52f53ca387ca183aa3a0652",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "2f9d52992a28e005763a61ab5053edc656bbb72b532d72a70f3f3982ae687b65",
+      "size": 4447
+    },
+    {
+      "blob_oid": "8fd254c8e12708233a0cb099db2654670c54e6bc",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "58dc4a15047f795bbebdf1c84b8f1533eedcc90ab4346fda4664e3bd3c5e287d",
+      "size": 364
+    },
+    {
+      "blob_oid": "a10e4c89d5476cf683858332f0bd5d1554d46b2c",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md/references/instruction-policy.md",
+      "remote_refs_reachable": true,
+      "sha256": "c99b7073053fa7d077fb9ab6f150c6075b4663f78ebd0eee2aae2260120355af",
+      "size": 1648
+    },
+    {
+      "blob_oid": "3a6228050ae8539519265fa6c2c366d9e74aede6",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md/references/rule-writing.md",
+      "remote_refs_reachable": true,
+      "sha256": "83108fbd63f6b2282fb41791506cb4ab951d091ddd4bc08b0893b87cfaded5d5",
+      "size": 659
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-agents-md/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "e73e7364ce006b78c155580ec2f2818d039ad620",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "123473c282f0b4d12c9bb0e4438e73c10f1d560fdf7b5ee5a4b52889bd9209ef",
+      "size": 5670
+    },
+    {
+      "blob_oid": "12c6c86bb223cb6b146869e3f642f438a0bdf68f",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "e042a6681161eea856315c93494fa1d48241e4d22c8b4836805e7b432fc8f8d3",
+      "size": 342
+    },
+    {
+      "blob_oid": "3f04f16cac79e955fa24ea2ac213dad2f49276fd",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/architecture-and-docs.md",
+      "remote_refs_reachable": true,
+      "sha256": "c18fcc90a9da4d237b5ccb70e433e5f0a26b75be01b29d2e4ff4555dea1538fb",
+      "size": 1198
+    },
+    {
+      "blob_oid": "2317dc3fce1eef270ca98ba0f991adbeb89ed200",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/defects-flakes-and-reports.md",
+      "remote_refs_reachable": true,
+      "sha256": "c6093a03894753fc3d5113e012cf2ffeb3a516e047dea517f8c967afce8a2b7c",
+      "size": 894
+    },
+    {
+      "blob_oid": "f9772f341526156132fb9edd0accdd8e28ee1888",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/ratchets-and-baselines.md",
+      "remote_refs_reachable": true,
+      "sha256": "296f86d033207fdb591146e827d15a4efa374d1b63e7803e69963d71d85e18c4",
+      "size": 940
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "5f2cc681fbd6788ca6db9d2542d6af8887af43c4",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/shared-version-policy.md",
+      "remote_refs_reachable": true,
+      "sha256": "2bec5ac1b8040e0e7e88469ba26e3b3aaef16337df6dcb244727a1d6f86be316",
+      "size": 1336
+    },
+    {
+      "blob_oid": "b38b58a73ea00415640d7919ad016e85ee15b691",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/verification-lanes.md",
+      "remote_refs_reachable": true,
+      "sha256": "8bb46a165fe60dfad3bc9f969a207594ed67f3b7af3239332b0bce82bc0b801d",
+      "size": 1056
+    },
+    {
+      "blob_oid": "c75a51fd56813e4cad3c68033eb9c3d443fa9fe3",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health-audit/references/versions-and-dependencies.md",
+      "remote_refs_reachable": true,
+      "sha256": "b171550f2f867a609e70c19c7b8520b1b46c178b609f0254236adf27450de08c",
+      "size": 816
+    },
+    {
+      "blob_oid": "74cc6f2b8cb7e4d5c9253ac2cdab567f8abb2d1d",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "7848379920c77d7f955e5e214bb71f16a3aaa9e535a3f7b467bef1ca9fa04b6d",
+      "size": 5964
+    },
+    {
+      "blob_oid": "5f36c8814ac77a3f04cd6215ad70c77f02179f9a",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "811ce48365c4817f152561440a386f5a9f1c4013369799245354ad66c35fbd8a",
+      "size": 321
+    },
+    {
+      "blob_oid": "eed83f66ca8ff134ce4e6b720be688ac6ca0024c",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/assets/DEFECT_LEDGER.md",
+      "remote_refs_reachable": true,
+      "sha256": "904ccc637b526ee481bfac29349608e92692407190e454abcbeb2bdfed53a125",
+      "size": 165
+    },
+    {
+      "blob_oid": "a0dff4aa891821a605491ed049b9ee32263f3add",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/assets/flaky-tests.toml",
+      "remote_refs_reachable": true,
+      "sha256": "7f5a5b46d2a88ff415a92cccc627284dece941b82c58c61d975c78c7462d0142",
+      "size": 276
+    },
+    {
+      "blob_oid": "4a16a0f652672d6af0827205f2f2b460936a9abf",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/assets/ratchet.toml",
+      "remote_refs_reachable": true,
+      "sha256": "335f9f9658c7c015e252a41a7b449e00c7f4d4cd17b2b64cb3421549052c2f40",
+      "size": 432
+    },
+    {
+      "blob_oid": "975b88ae76bf3dc0837b3598dbb7cd03b36edf76",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/assets/renovate.json",
+      "remote_refs_reachable": true,
+      "sha256": "f18c9f90647f39e2f8f2a4be63ed1e53612527c56e74ff0fd718a0a38fe021d4",
+      "size": 1033
+    },
+    {
+      "blob_oid": "3f04f16cac79e955fa24ea2ac213dad2f49276fd",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/architecture-and-docs.md",
+      "remote_refs_reachable": true,
+      "sha256": "c18fcc90a9da4d237b5ccb70e433e5f0a26b75be01b29d2e4ff4555dea1538fb",
+      "size": 1198
+    },
+    {
+      "blob_oid": "2317dc3fce1eef270ca98ba0f991adbeb89ed200",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/defects-flakes-and-reports.md",
+      "remote_refs_reachable": true,
+      "sha256": "c6093a03894753fc3d5113e012cf2ffeb3a516e047dea517f8c967afce8a2b7c",
+      "size": 894
+    },
+    {
+      "blob_oid": "f9772f341526156132fb9edd0accdd8e28ee1888",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/ratchets-and-baselines.md",
+      "remote_refs_reachable": true,
+      "sha256": "296f86d033207fdb591146e827d15a4efa374d1b63e7803e69963d71d85e18c4",
+      "size": 940
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "5f2cc681fbd6788ca6db9d2542d6af8887af43c4",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/shared-version-policy.md",
+      "remote_refs_reachable": true,
+      "sha256": "2bec5ac1b8040e0e7e88469ba26e3b3aaef16337df6dcb244727a1d6f86be316",
+      "size": 1336
+    },
+    {
+      "blob_oid": "b38b58a73ea00415640d7919ad016e85ee15b691",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/verification-lanes.md",
+      "remote_refs_reachable": true,
+      "sha256": "8bb46a165fe60dfad3bc9f969a207594ed67f3b7af3239332b0bce82bc0b801d",
+      "size": 1056
+    },
+    {
+      "blob_oid": "c75a51fd56813e4cad3c68033eb9c3d443fa9fe3",
+      "mode": "100644",
+      "path": "skills/tailrocks-code-health/references/versions-and-dependencies.md",
+      "remote_refs_reachable": true,
+      "sha256": "b171550f2f867a609e70c19c7b8520b1b46c178b609f0254236adf27450de08c",
+      "size": 816
+    },
+    {
+      "blob_oid": "cb640d404c7c46f6b230a15aaf566e64ba4b16e3",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-audit/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "664dc39ddfc4f546d69c4d1981f03963242b4abc77c2a162146138dabd5f9882",
+      "size": 5746
+    },
+    {
+      "blob_oid": "d0c6fbb8c3336432355f7aef43f595899f3dcc1c",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-audit/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "e0443019b21755b552023ee4bbca2be66da0542f55ed978413eea8f0013910e0",
+      "size": 339
+    },
+    {
+      "blob_oid": "137fc35bf5bf68a7f716a53d2594d1314cb9f1b9",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-audit/references/finding-routing.md",
+      "remote_refs_reachable": true,
+      "sha256": "ea6a970b654b237bdd4edcf527550f5dbab7623c88073ec65ee886f369f0131e",
+      "size": 706
+    },
+    {
+      "blob_oid": "392964c036411165379c8f7e9b6b1642f44164ac",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-audit/references/repository-audit-lanes.md",
+      "remote_refs_reachable": true,
+      "sha256": "fa03300744c3dc7665ad7f498fa9c199cf673e4e453d7a6f38125b34c7ed6f77",
+      "size": 5633
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-audit/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "435f2256f436a61b1f22cf76e2ee65c727f73b20",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-execution/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "df8f3a62da6cc1df1945f5373ec962b43943b229095c38534ede9aa1e1bcbdc9",
+      "size": 4566
+    },
+    {
+      "blob_oid": "7a34524365795a2ad74855e33dcc7b2de163ea05",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-execution/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "af69c0f80513ddaa6c72083fe2ea71cd9b6c22be28a088dbd75ba619e5daf272",
+      "size": 327
+    },
+    {
+      "blob_oid": "7b2aa2066b44e39fd66143303449b9ffa0859ab4",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-execution/references/execution-loop.md",
+      "remote_refs_reachable": true,
+      "sha256": "8ab47e55247384f21e624bead9c763534eb339bfe3ef541e21d4bf8b7f928982",
+      "size": 1176
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-execution/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "256fa54d4d76b89974facb32196663ab02f58da2",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-plan/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "69d71682698ab51ecee10fde243c18551ff9472794413afc74ce3b0833f7f1ca",
+      "size": 5969
+    },
+    {
+      "blob_oid": "2a5e48214944961001447cc296a191b4dac1e228",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-plan/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "f27d4d30308b5c6a12c4b4be7e8d25f36a8e83d58b9905eb54d3f5b5ddfba356",
+      "size": 312
+    },
+    {
+      "blob_oid": "a2017a7153a4976aac4ebbb6016216d137e9b9f7",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-plan/references/artifact-boundary.md",
+      "remote_refs_reachable": true,
+      "sha256": "672490eb73ba1b31cee52a7b6eec971e171c95c8c7697eb7ceb0f200a453938b",
+      "size": 1238
+    },
+    {
+      "blob_oid": "ad3fdb8017a8d22696e3ce5d1cb0a2699826fdcd",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-plan/references/eligibility.md",
+      "remote_refs_reachable": true,
+      "sha256": "4301ef59636413efee3344611dc70e7da205a646f4c27523138c7299c1f56ba9",
+      "size": 486
+    },
+    {
+      "blob_oid": "3e9669c4fe168400d3d4bba585ef9594b53331d8",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-plan/references/plan-format.md",
+      "remote_refs_reachable": true,
+      "sha256": "253273a1702c57a4001d590dc3628fa3fc21c3cb7009665a8bae2ab67e789b81",
+      "size": 4760
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-plan/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "455bb5803ae4772786567572fb2f75723bd18789",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-reconcile/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "51be497ce50c0148d60b0210b169db4ef5d522c4fe3b9d0a27023b35e8e492b2",
+      "size": 3940
+    },
+    {
+      "blob_oid": "49ddc75060914d67b19cfe78b94f772326dbc86e",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-reconcile/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "dc5ea8796c57db0eb43821439f241af38c2ea4175a214a56777eeeb0fa8c07dc",
+      "size": 327
+    },
+    {
+      "blob_oid": "14d859ab539525d37be9a4cbdd807295c72afb19",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-reconcile/references/reconciliation.md",
+      "remote_refs_reachable": true,
+      "sha256": "e06df687b93f9b7864d7f0df4bf31d6ddae1779f2968f34aa689381cfbc1646e",
+      "size": 1078
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-reconcile/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "bdcebd9ee02f5c3e0a91d20787824e27841da41f",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-security-audit/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "f441d0d9df77187579fbba36f2982982f4aa5222c0a7811a9953ae321f83ef38",
+      "size": 4633
+    },
+    {
+      "blob_oid": "bf1d0b6c068f95e77fad2ac15bd6a0dee2379166",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-security-audit/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "21ed696dcb53b1c9f8fe70d9d79ffd3661661830f289a2abfca36b1cc42900ca",
+      "size": 371
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-security-audit/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "bd9179e18beefb26663702b82cfbc8b709ae9dc5",
+      "mode": "100644",
+      "path": "skills/tailrocks-improve-security-audit/references/security-rubric.md",
+      "remote_refs_reachable": true,
+      "sha256": "486913d9420953a2b6f99938114c973cdea008aee79ee3ab333d8a37e09bdefb",
+      "size": 867
+    },
+    {
+      "blob_oid": "25fe1372078fc1f217a279fa394e23cc61708c22",
+      "mode": "100644",
+      "path": "skills/tailrocks-remediate/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "f8e7ae2b9b6bb486888b8a0053358ac66747379981af54e6249dc24274cb1025",
+      "size": 6210
+    },
+    {
+      "blob_oid": "1ed748586e155258fe2a0c32498ecdfbe19c83d4",
+      "mode": "100644",
+      "path": "skills/tailrocks-remediate/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "b27191bdd6ad4146a708c9118d4469498881626791101c735f001a6989ff7de4",
+      "size": 335
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-remediate/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "b4fcd675321cf0b7f76eb334adeab53dc3a085bc",
+      "mode": "100644",
+      "path": "skills/tailrocks-root-cause/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "ecd7a40163a80f4d7b78863fc8efdba2b484a0813eb2c4373ff991e0e5259e08",
+      "size": 6290
+    },
+    {
+      "blob_oid": "ea3944f16d245faacd3d642cce4c3ef3aed9f382",
+      "mode": "100644",
+      "path": "skills/tailrocks-root-cause/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "0a74493cfac47b5aefde89bc413b84b6efe585617a853e5a32a45a39a326c7b8",
+      "size": 332
+    },
+    {
+      "blob_oid": "e793cac72f6e18d132873fcf7d47fafdadacc870",
+      "mode": "100644",
+      "path": "skills/tailrocks-root-cause/references/concept-corpus.md",
+      "remote_refs_reachable": true,
+      "sha256": "ee6795be662089cd664889170840ebf6d6ea55ada8239a3537712670d4f74b23",
+      "size": 4152
+    },
+    {
+      "blob_oid": "621599b6343c014e5b509a6c889dcdbaa53e95bd",
+      "mode": "100644",
+      "path": "skills/tailrocks-root-cause/references/correction-options.md",
+      "remote_refs_reachable": true,
+      "sha256": "886e8ccd597fe681bc107b6dadd31d2aad899ac2264aa077930aed5ecc320637",
+      "size": 3083
+    },
+    {
+      "blob_oid": "d3eaa0bf214e3968ff98fc7abab0ac7dc19ed35f",
+      "mode": "100644",
+      "path": "skills/tailrocks-root-cause/references/principles-and-evidence.md",
+      "remote_refs_reachable": true,
+      "sha256": "684d1a43942e43355c7967ae881aad3216ddab7efada4c98cb20934a68a6e96e",
+      "size": 1919
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-root-cause/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "bc6ef43336e26dae72893433a3468691a4821d74",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify-audit/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "7475146bb76db785df314fc58d7bc0ead1ef9fb20c60ac3f2e3efc7aabec5075",
+      "size": 4820
+    },
+    {
+      "blob_oid": "330c1d2bcedcd4d28bc18e87487d4ba36ed06902",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify-audit/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "80453d779926e3f3b19082a3bcc9284b29c59bbd31490b4cc961cd3c463100e2",
+      "size": 314
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify-audit/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    },
+    {
+      "blob_oid": "8bdc9fe0fec52dae31b8874579006b7b95ba7608",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify-audit/references/simplification-ladder.md",
+      "remote_refs_reachable": true,
+      "sha256": "b44e7ec1583b0e9d00c3baf77d5c19815e3524eb2e4cf3ba77f45a83f4c5de28",
+      "size": 5539
+    },
+    {
+      "blob_oid": "c7b823cbcf8160ea936fde4c8b1553d9dd319ae8",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify/SKILL.md",
+      "remote_refs_reachable": true,
+      "sha256": "4cf54654cc22d275bb6962c772976972e2b0dc41587fa54cfc0914a5e59ebc05",
+      "size": 5239
+    },
+    {
+      "blob_oid": "1cac8000e7e5638b1c81805f33847f7b699c6937",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify/agents/openai.yaml",
+      "remote_refs_reachable": true,
+      "sha256": "8d50ad2554551028b6ff8c5bd067892c2f8d9f82e52fd9de14a9f41583a04515",
+      "size": 321
+    },
+    {
+      "blob_oid": "d398086809bd32150dd7a160e757c6edc7dd6596",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify/references/behavior-preservation.md",
+      "remote_refs_reachable": true,
+      "sha256": "50b6293d6783ff94967190405e239505d964eb6c6d6832fd8763a821e47406d3",
+      "size": 3874
+    },
+    {
+      "blob_oid": "e43364c3f543f817a7678367d470980524b15614",
+      "mode": "100644",
+      "path": "skills/tailrocks-simplify/references/runtime-trust.md",
+      "remote_refs_reachable": true,
+      "sha256": "7e9e2efa83ac31c436f0150a2b6160ab6d0c27616213d9756572ef2c58ee422a",
+      "size": 856
+    }
+  ],
+  "missing_tracked_worktree_paths_disposition": "UNKNOWN_INCOMPLETE_CHECKOUT; do not synthesize D changes; each missing path maps to verified base tree bytes",
+  "original_source_path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco/tailrocks-code-quality-skills",
+  "original_source_path_absent_nofollow": true,
+  "present_worktree_bytes_archived_under": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/worktree",
+  "quarantine_parent_chain": [
+    {
+      "dev": 16777234,
+      "ino": 20994,
+      "mode": 493,
+      "path": "/Users"
+    },
+    {
+      "dev": 16777234,
+      "ino": 47530,
+      "mode": 488,
+      "path": "/Users/donbeave"
+    },
+    {
+      "dev": 16777234,
+      "ino": 47537,
+      "mode": 448,
+      "path": "/Users/donbeave/Library"
+    },
+    {
+      "dev": 16777234,
+      "ino": 81285,
+      "mode": 320,
+      "path": "/Users/donbeave/Library/Mobile Documents"
+    },
+    {
+      "dev": 16777234,
+      "ino": 81286,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs"
+    },
+    {
+      "dev": 16777234,
+      "ino": 108966,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents"
+    },
+    {
+      "dev": 16777234,
+      "ino": 138943,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658265,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658271,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658344,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112697987,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco"
+    }
+  ],
+  "quarantine_path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco/tailrocks-code-quality-skills.user-repatriation-quarantine-5f32184ee34b34507564a3a2",
+  "raw_git_admin_bytes_archived_under": "recovery/source-only/5f32184ee34b34507564a3a2/90d3f9bf5e0ea5f2d83c73cd/git-admin",
+  "remote_base_commit": "f7987d85339c77f5c69f16a321ba0d49c5dd2ca7",
+  "remote_base_ref": "refs/pull/8/head",
+  "repository": "tailrocks/tailrocks-code-quality-skills",
+  "repository_id": 1353757991,
+  "schema": "source-only-github-recovery-archive-v1",
+  "snapshot_entries": [
+    {
+      "ctime_ns": 1791951230845887963,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117935274,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951134000000000,
+      "nlink": 7,
+      "relative_path": ".git",
+      "size": 224,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951799224608192,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117940217,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/COMMIT_EDITMSG",
+      "sha256": "2e9de2afcf63fbdbb7ed35d3bf37f66847880429b2810f7d4bdc130054addeb6",
+      "size": 82,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951800408282858,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117940218,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/index",
+      "sha256": "980fb782b85cf24f545068e8f3576d4f8ad32dcf588b7ed194b546814967fa6d",
+      "size": 13955,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951801156938799,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117940219,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951129000000000,
+      "nlink": 4,
+      "relative_path": ".git/logs",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951801615280062,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117972895,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/logs/HEAD",
+      "sha256": "2f0ce7ffab67d3dfe0fb22b4b2d9b639ed63266a98ccf726a60d199f6e03cdc0",
+      "size": 2078,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951802349718429,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117972896,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951129000000000,
+      "nlink": 4,
+      "relative_path": ".git/logs/refs",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951802383646772,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117972905,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951127000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/heads",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951802976989072,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117972908,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/logs/refs/heads/chatgpt-web-validators-2026-10-12",
+      "sha256": "3d50461eb1315a8449b7cfea078ae17eff4333f5e180e90ee00fe2d3458842fc",
+      "size": 796,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951803611978837,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117972906,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951129000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/remotes",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951803645447887,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117972915,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951129000000000,
+      "nlink": 3,
+      "relative_path": ".git/logs/refs/remotes/origin",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951804155693336,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117972916,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906134000000000,
+      "nlink": 1,
+      "relative_path": ".git/logs/refs/remotes/origin/chatgpt-web-validators-2026-10-12",
+      "sha256": "189e9c56419735009ff3c975498aee00b9236210f6cb0662d1dbe97c7d161501",
+      "size": 450,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951290614427413,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117940220,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951134000000000,
+      "nlink": 7,
+      "relative_path": ".git/objects",
+      "size": 224,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350594516717,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946298,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951132000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/a0",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951805087003229,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117948829,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/a0/8dd8edd604063e2a8762bf5c74029aaa9d1351",
+      "sha256": "94a0d71ca05deb0cdb6a5b47b9eccb90ceb48455de8cfe230a691fff78d215f6",
+      "size": 1271,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350593491337,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946299,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951134000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/b7",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951806134517686,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117948828,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/b7/d79d57e76450fe6e2392c61d336dddda7e94e9",
+      "sha256": "ff158b9291de298dd6634f425e7d9bff420336769a7c715d86da6b034b44fe6d",
+      "size": 138,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350697712173,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946300,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951134000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/e0",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951807063259815,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117948842,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/e0/a54ffde537414825aac71f362d5d804c802a62",
+      "sha256": "51251f0ffc300123d9272e8eb08f96c350ef020856ae185ddbf41664ad495639",
+      "size": 55,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350599706450,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946301,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951134000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/e7",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951808051782465,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117948833,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/e7/6be1abb79374fb06ee928e48675c372c4eb1cb",
+      "sha256": "6fba28150b9466544d4d186d04eb8b69560e61078a89a292e3d5ab7cf1f14918",
+      "size": 55,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350598524736,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946302,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951134000000000,
+      "nlink": 3,
+      "relative_path": ".git/objects/eb",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951809049963122,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117948830,
+      "kind": "file",
+      "mode": 256,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/objects/eb/4b4c3ca438a0137dc161a3296193ed43367679",
+      "sha256": "c00bc884b7323f3962d85e89a500dc06837739a3823500a2d0f2bcd373355b9c",
+      "size": 159,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951290922725609,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117940221,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951127000000000,
+      "nlink": 4,
+      "relative_path": ".git/refs",
+      "size": 128,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350701602566,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946310,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951123000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/heads",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951810055473485,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117948843,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906113000000000,
+      "nlink": 1,
+      "relative_path": ".git/refs/heads/chatgpt-web-validators-2026-10-12",
+      "sha256": "c0eff1c7b7f394ff5b1d0534e02b30bfbbd8102bd0db3ca28442cd4cd2c44f61",
+      "size": 41,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951350597867358,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117946311,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951127000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/remotes",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951410780953015,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117948832,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951127000000000,
+      "nlink": 3,
+      "relative_path": ".git/refs/remotes/origin",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951810956197635,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117955414,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906134000000000,
+      "nlink": 1,
+      "relative_path": ".git/refs/remotes/origin/chatgpt-web-validators-2026-10-12",
+      "sha256": "c0eff1c7b7f394ff5b1d0534e02b30bfbbd8102bd0db3ca28442cd4cd2c44f61",
+      "size": 41,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951230702298021,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117935275,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951109000000000,
+      "nlink": 2,
+      "relative_path": ".github",
+      "size": 64,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951811598090979,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117935276,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951119000000000,
+      "nlink": 3,
+      "relative_path": ".github.velnor-stage",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951811622746316,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117972963,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951119000000000,
+      "nlink": 2,
+      "relative_path": ".github.velnor-stage/spare",
+      "size": 64,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951230705052117,
+      "dev": 16777234,
+      "flags": 32768,
+      "gid": 20,
+      "ino": 117935277,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951109000000000,
+      "nlink": 3,
+      "relative_path": ".velnor",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951812000243199,
+      "dev": 16777234,
+      "flags": 32832,
+      "gid": 20,
+      "ino": 117940212,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906065000000000,
+      "nlink": 1,
+      "relative_path": ".velnor/release-manifest.json",
+      "sha256": "eeecd05bd116504734e97b071a8f666e705c881184a1ff7f56012e4e8e81f39b",
+      "size": 953,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951230580168348,
+      "dev": 16777234,
+      "flags": 0,
+      "gid": 20,
+      "ino": 117935278,
+      "kind": "directory",
+      "mode": 448,
+      "mtime_ns": 1791951107000000000,
+      "nlink": 3,
+      "relative_path": "docs",
+      "size": 96,
+      "uid": 501,
+      "xattrs": {}
+    },
+    {
+      "ctime_ns": 1791951813218617003,
+      "dev": 16777234,
+      "flags": 64,
+      "gid": 20,
+      "ino": 117940204,
+      "kind": "file",
+      "mode": 384,
+      "mtime_ns": 1791906098000000000,
+      "nlink": 1,
+      "relative_path": "docs/maintenance.md",
+      "sha256": "5912f9bebc1c1926ca5d03161d47ac19daf0598761a0db9b5073c3c84a52d861",
+      "size": 6467,
+      "uid": 501,
+      "xattrs": {}
+    }
+  ],
+  "snapshot_manifest_sha256": "388184864c477004d97db344c5c03157160e24ba14fea4f2f16effacaa1e514a",
+  "snapshot_manifest_source_path": "/Users/donbeave/.local/state/github-repatriation/operations/user-request-20261013T2201Z/supplemental-icloud-28/reappeared-quarantine-recovery-v1/snapshots/5f32184ee34b34507564a3a2/be7542b1837f572d6fe44fd1/snapshot-manifest.json",
+  "snapshot_tree_sha256": "be7542b1837f572d6fe44fd1c3edea2595ea67b2233cfdb2b0c5f9e1528ecc8e",
+  "source_branch_refs": {
+    "refs/heads/chatgpt-web-validators-2026-10-12": "f7987d85339c77f5c69f16a321ba0d49c5dd2ca7",
+    "refs/remotes/origin/chatgpt-web-validators-2026-10-12": "f7987d85339c77f5c69f16a321ba0d49c5dd2ca7"
+  },
+  "source_config_file_present": false,
+  "source_current_identity": {
+    "dev": 16777234,
+    "ino": 117931038,
+    "mode": 448,
+    "mtime_ns": 1791951134000000000,
+    "size": 224
+  },
+  "source_head_file_present": false,
+  "source_head_reflog_terminal_sha": "f7987d85339c77f5c69f16a321ba0d49c5dd2ca7",
+  "source_id": "094f17b88e93d39e299749b2",
+  "source_parent_chain": [
+    {
+      "dev": 16777234,
+      "ino": 20994,
+      "mode": 493,
+      "path": "/Users"
+    },
+    {
+      "dev": 16777234,
+      "ino": 47530,
+      "mode": 488,
+      "path": "/Users/donbeave"
+    },
+    {
+      "dev": 16777234,
+      "ino": 47537,
+      "mode": 448,
+      "path": "/Users/donbeave/Library"
+    },
+    {
+      "dev": 16777234,
+      "ino": 81285,
+      "mode": 320,
+      "path": "/Users/donbeave/Library/Mobile Documents"
+    },
+    {
+      "dev": 16777234,
+      "ino": 81286,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs"
+    },
+    {
+      "dev": 16777234,
+      "ino": 108966,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents"
+    },
+    {
+      "dev": 16777234,
+      "ino": 138943,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658265,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658271,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112658344,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work"
+    },
+    {
+      "dev": 16777234,
+      "ino": 112697987,
+      "mode": 448,
+      "path": "/Users/donbeave/Library/Mobile Documents/com~apple~CloudDocs/Documents/Codex/2026-10-12/goal-mission-make-tailrocks-skills-work/work/dco"
+    }
+  ]
+}

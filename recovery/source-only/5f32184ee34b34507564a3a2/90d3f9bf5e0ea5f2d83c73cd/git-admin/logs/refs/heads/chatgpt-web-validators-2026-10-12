@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 4fd90f33e3986d44bb51b0c74431c4865e52e01e Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	branch: Created from origin/chatgpt-web-validators-2026-10-12
+4fd90f33e3986d44bb51b0c74431c4865e52e01e 2bd0bfdb86cba0c4a52c00248439c17aaee60496 Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	rebase (finish): refs/heads/chatgpt-web-validators-2026-10-12 onto d14832f9d3cf0690851f3ecaaa7f9de32c0d1096
+2bd0bfdb86cba0c4a52c00248439c17aaee60496 b7afc86ab51730aa6accddad36c6f7b00a05842e Alexey Zhokhov <alexey@zhokhov.com> 1791900427 +0700	commit: ci: enable offline fragment link checks
+b7afc86ab51730aa6accddad36c6f7b00a05842e f7987d85339c77f5c69f16a321ba0d49c5dd2ca7 Alexey Zhokhov <alexey@zhokhov.com> 1791906113 +0700	commit: ci: fix pinned Lychee install

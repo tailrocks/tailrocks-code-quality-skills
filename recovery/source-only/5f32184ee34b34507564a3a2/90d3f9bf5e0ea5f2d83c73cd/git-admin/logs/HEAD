@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 d14832f9d3cf0690851f3ecaaa7f9de32c0d1096 Alexey Zhokhov <alexey@zhokhov.com> 1791836567 +0700	clone: from https://github.com/tailrocks/tailrocks-code-quality-skills.git
+d14832f9d3cf0690851f3ecaaa7f9de32c0d1096 4fd90f33e3986d44bb51b0c74431c4865e52e01e Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	checkout: moving from main to chatgpt-web-validators-2026-10-12
+4fd90f33e3986d44bb51b0c74431c4865e52e01e eb670b22330a928900b900a5f0d2c38d3176a046 Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	rebase (start): checkout origin/main
+eb670b22330a928900b900a5f0d2c38d3176a046 5304eef6047c36e2ea9fa6642566a57330817fa4 Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	commit (amend): ci: validate skill metadata and links
+5304eef6047c36e2ea9fa6642566a57330817fa4 97b30bcd867689ef8b8efd08b1f1cc56fa069f2a Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	rebase (pick): ci: check local documentation links
+97b30bcd867689ef8b8efd08b1f1cc56fa069f2a ccd40bb880661f65b5c0dd0492f011c279e5671a Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	commit (amend): ci: check local documentation links
+ccd40bb880661f65b5c0dd0492f011c279e5671a cf7152433879e7b19588813e2b6e275a5b22b5ec Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	rebase (pick): ci: correct local link validation
+cf7152433879e7b19588813e2b6e275a5b22b5ec 2bd0bfdb86cba0c4a52c00248439c17aaee60496 Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	commit (amend): ci: correct local link validation
+2bd0bfdb86cba0c4a52c00248439c17aaee60496 2bd0bfdb86cba0c4a52c00248439c17aaee60496 Alexey Zhokhov <alexey@zhokhov.com> 1791836576 +0700	rebase (finish): returning to refs/heads/chatgpt-web-validators-2026-10-12
+2bd0bfdb86cba0c4a52c00248439c17aaee60496 b7afc86ab51730aa6accddad36c6f7b00a05842e Alexey Zhokhov <alexey@zhokhov.com> 1791900427 +0700	commit: ci: enable offline fragment link checks
+b7afc86ab51730aa6accddad36c6f7b00a05842e f7987d85339c77f5c69f16a321ba0d49c5dd2ca7 Alexey Zhokhov <alexey@zhokhov.com> 1791906113 +0700	commit: ci: fix pinned Lychee install
