@@ -1,0 +1,18 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "tailrocks-code-quality-skills",
+  "description": "Evidence-driven code-health audits, root-cause diagnosis, simplification, remediation, and repository instruction topology.",
+  "keywords": [
+    "code-quality",
+    "code-health",
+    "root-cause",
+    "remediation",
+    "simplification",
+    "architecture",
+    "AGENTS.md",
+    "security",
+    "technical-debt"
+  ],
+  "homepage": "https://github.com/tailrocks/tailrocks-code-quality-skills",
+  "repository": "https://github.com/tailrocks/tailrocks-code-quality-skills"
+}

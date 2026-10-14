@@ -1,0 +1,16 @@
+{
+  "skills": [
+    "tailrocks-agents-md",
+    "tailrocks-agents-md-audit",
+    "tailrocks-agents-md-sync",
+    "tailrocks-code-health",
+    "tailrocks-code-health-audit",
+    "tailrocks-improve",
+    "tailrocks-improve-deep",
+    "tailrocks-improve-security",
+    "tailrocks-remediate",
+    "tailrocks-root-cause",
+    "tailrocks-simplify",
+    "tailrocks-simplify-audit"
+  ]
+}

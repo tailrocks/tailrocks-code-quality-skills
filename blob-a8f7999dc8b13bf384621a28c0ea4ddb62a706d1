@@ -1,0 +1,98 @@
+[
+  {
+    "name": "tailrocks-agents-md",
+    "description": ">-",
+    "argumentHint": "<one rule and governed paths>",
+    "overview": "skills/tailrocks-agents-md/index.md",
+    "definition": "skills/tailrocks-agents-md/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-agents-md/SKILL.md"
+  },
+  {
+    "name": "tailrocks-agents-md-audit",
+    "description": ">-",
+    "argumentHint": "<repository path> [--client-name <basename>]...",
+    "overview": "skills/tailrocks-agents-md-audit/index.md",
+    "definition": "skills/tailrocks-agents-md-audit/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-agents-md-audit/SKILL.md"
+  },
+  {
+    "name": "tailrocks-agents-md-sync",
+    "description": ">-",
+    "argumentHint": "<approved audit finding and repository path>",
+    "overview": "skills/tailrocks-agents-md-sync/index.md",
+    "definition": "skills/tailrocks-agents-md-sync/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-agents-md-sync/SKILL.md"
+  },
+  {
+    "name": "tailrocks-code-health",
+    "description": ">-",
+    "argumentHint": "<establish|tighten, approved debt class, metric, and paths>",
+    "overview": "skills/tailrocks-code-health/index.md",
+    "definition": "skills/tailrocks-code-health/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-code-health/SKILL.md"
+  },
+  {
+    "name": "tailrocks-code-health-audit",
+    "description": ">-",
+    "argumentHint": "<repository path and selected debt class>",
+    "overview": "skills/tailrocks-code-health-audit/index.md",
+    "definition": "skills/tailrocks-code-health-audit/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-code-health-audit/SKILL.md"
+  },
+  {
+    "name": "tailrocks-improve",
+    "description": ">-",
+    "argumentHint": "[quick|correctness|perf|tests|tech-debt|dependencies|dx|docs|direction|agent-legibility|ux|tui|liquid-glass] [--batch] [repository path]",
+    "overview": "skills/tailrocks-improve/index.md",
+    "definition": "skills/tailrocks-improve/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-improve/SKILL.md"
+  },
+  {
+    "name": "tailrocks-improve-deep",
+    "description": ">-",
+    "argumentHint": "[correctness|perf|tests|tech-debt|dependencies|dx|docs|direction|agent-legibility] [--batch] [repository path]",
+    "overview": "skills/tailrocks-improve-deep/index.md",
+    "definition": "skills/tailrocks-improve-deep/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-improve-deep/SKILL.md"
+  },
+  {
+    "name": "tailrocks-improve-security",
+    "description": ">-",
+    "argumentHint": "[--deep] [--batch] [repository path or bounded scope]",
+    "overview": "skills/tailrocks-improve-security/index.md",
+    "definition": "skills/tailrocks-improve-security/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-improve-security/SKILL.md"
+  },
+  {
+    "name": "tailrocks-remediate",
+    "description": ">-",
+    "argumentHint": "fix <approved root-cause report and target>",
+    "overview": "skills/tailrocks-remediate/index.md",
+    "definition": "skills/tailrocks-remediate/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-remediate/SKILL.md"
+  },
+  {
+    "name": "tailrocks-root-cause",
+    "description": ">-",
+    "argumentHint": "<proven defect, reported friction, or failed guarantee>",
+    "overview": "skills/tailrocks-root-cause/index.md",
+    "definition": "skills/tailrocks-root-cause/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-root-cause/SKILL.md"
+  },
+  {
+    "name": "tailrocks-simplify",
+    "description": ">-",
+    "argumentHint": "apply <approved removal set and PR, branch, or diff>",
+    "overview": "skills/tailrocks-simplify/index.md",
+    "definition": "skills/tailrocks-simplify/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-simplify/SKILL.md"
+  },
+  {
+    "name": "tailrocks-simplify-audit",
+    "description": ">-",
+    "argumentHint": "<PR, branch, or diff>",
+    "overview": "skills/tailrocks-simplify-audit/index.md",
+    "definition": "skills/tailrocks-simplify-audit/definition.md",
+    "source": "https://github.com/tailrocks/tailrocks-code-quality-skills/blob/main/skills/tailrocks-simplify-audit/SKILL.md"
+  }
+]
