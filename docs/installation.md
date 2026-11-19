@@ -1,6 +1,6 @@
 # Installation
 
-`tailrocks-code-quality-skills` version `0.29.0` contains 14 skills.
+`tailrocks-code-quality-skills` version `0.29.1` contains 14 skills.
 The package source is [tailrocks/tailrocks-code-quality-skills][package].
 The [Tailrocks catalog][catalog] pins one upstream commit per package.
 
