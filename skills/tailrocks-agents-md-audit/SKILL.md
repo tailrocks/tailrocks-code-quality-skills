@@ -52,13 +52,15 @@ Reject unsafe basenames, escaping paths, and symlinked roots.
 
 2. **Inventory every directory with instructions.** Record the
    regular `AGENTS.md` file and each configured client basename.
-   Record missing, regular-file, wrong-target, broken, escaping,
-   looped, and unresolved states without repair.
+   Identify each entry as a symlink, native import, or regular copy.
+   Record missing, unsupported, divergent, broken, escaping, looped,
+   or unresolved entries without repair.
 
 3. **Map the load chains.** Map each effective
    ancestor-to-descendant chain. Confirm that each declared agent
-   reads the specified files. When a loader cannot follow a
-   symlink, record a regular file as the required entry form.
+   reads the specified files. Apply the shared policy to verify the
+   symlink target, imported file, or copied bytes. Count a verified
+   `@AGENTS.md` import as valid for a loader that supports it.
    Measure file bytes and chain bytes. Never estimate them.
 
 4. **Examine every rule.** Report misplaced, duplicated,

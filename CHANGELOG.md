@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.29.2 - 2026-11-20
+
+- Enforce portable description characters and the shared 500-line skill limit.
+- Clarify native Grok confirmation and record Antigravity installation evidence.
+- Recognize verified native imports of the canonical agent instructions.
+
 ## 0.29.1 - 2026-11-20
 
 - Replace backtracking in package validation with bounded parsing.

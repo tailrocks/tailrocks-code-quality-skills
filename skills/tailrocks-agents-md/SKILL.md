@@ -68,14 +68,14 @@ Refuse mixed selectors.
 
 5. **Create the owning file only with exact task authorization.**
    Write only the reviewed content. Create each approved
-   client entry beside it as a relative symlink to the bare
-   `AGENTS.md` filename. When the verified loader needs a
-   regular file, use a regular file. Create entries
-   sequentially. Report existing topology defects. Route them
+   client entry beside it in a form supported by the verified loader.
+   Use the shared policy to verify its symlink, native import, or copy.
+   Preserve valid entries. Create approved entries sequentially.
+   Report existing topology defects. Route them
    to sync. Never repair them incidentally.
 
-6. **Verify after the write.** Reject symlinked and escaping
-   targets. Re-read the rule, the owner, the ancestor chain,
+6. **Verify after the write.** Reject symlinked owner files and
+   escaping targets. Re-read the rule, the owner, the ancestor chain,
    and the written bytes. On failure, roll back only
    still-owned bytes and entries. Otherwise retain recovery
    evidence. Report the exact partial mutations.
@@ -96,8 +96,7 @@ true:
 - At most one rule changed.
 - No mutation occurred without exact task authorization.
 - The rule states no ancestor content again.
-- Every client entry is a verified symlink or a recorded regular
-  file.
+- Each approved entry points to, imports, or exactly copies the owning file.
 - Existing topology defects were reported, not repaired.
 
 ## References
