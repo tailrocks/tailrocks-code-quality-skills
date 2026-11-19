@@ -1,6 +1,6 @@
 # Compatibility and verification
 
-`tailrocks-code-quality-skills` version `0.29.2` publishes 14 skills from
+`tailrocks-code-quality-skills` version `0.29.3` publishes 14 skills from
 one `skills/<id>/SKILL.md` tree. Each skill keeps its references, scripts,
 and assets in the installed package.
 
