@@ -1,18 +1,12 @@
 ---
 name: tailrocks-agents-md-audit
 description: >-
-  Audits all repository instruction files read-only for placement,
-  duplicate content, deletion evidence, topology, load cost, and
-  enforceable-rule routing. Use this skill only when the user explicitly
-  requests it. Never edits or repairs.
-argument-hint: "<repository path> [--client-name <basename>]..."
-disable-model-invocation: true
-disableModelInvocation: true
+  Audits all repository instruction files read-only for placement, duplicate
+  content, deletion evidence, topology, load cost, and enforceable-rule
+  routing. Use this skill only when the user explicitly requests it. Never
+  edits or repairs. Use for requests to audit AGENTS.md files, instruction
+  rules, or client instruction entries.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks for an audit of AGENTS.md files, instruction rules, or
-  client instruction entries.
 ---
 
 # Agents instructions audit
@@ -31,6 +25,9 @@ authorize no mutation.
 
 ## Before you start
 
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
+
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.
 
@@ -43,7 +40,8 @@ against the directory that holds this SKILL.md file.
 
 This skill is read-only. It changes no repository byte.
 
-The skill accepts a repository path and optional client basenames.
+Supply the repository path. Repeat `--client-name <basename>` for each
+additional client instruction name.
 Reject unsafe basenames, escaping paths, and symlinked roots.
 
 ## Procedure

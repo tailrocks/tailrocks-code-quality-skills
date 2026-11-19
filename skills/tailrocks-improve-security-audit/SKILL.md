@@ -1,18 +1,12 @@
 ---
 name: tailrocks-improve-security-audit
 description: >-
-  Audits one repository read-only for security defects with bounded
-  threat analysis, secret-safe evidence, and adversarial verification.
-  Use this skill only when the user explicitly requests it. Never fixes,
-  exploits, publishes secrets, or changes source.
-argument-hint: "[--deep] [--batch] [repository path or bounded scope]"
-disable-model-invocation: true
-disableModelInvocation: true
+  Audits one repository read-only for security defects with bounded threat
+  analysis, secret-safe evidence, and adversarial verification. Use this
+  skill only when the user explicitly requests it. Never fixes, exploits,
+  publishes secrets, or changes source. Use for a repository vulnerability
+  review or threat assessment.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks for a security audit, a vulnerability review, or a threat
-  assessment of a repository.
 ---
 
 # Improve security audit
@@ -30,6 +24,9 @@ to fix, exploit, or publish secrets. General quality audits belong
 to `tailrocks-improve-audit`.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

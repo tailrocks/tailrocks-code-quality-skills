@@ -5,14 +5,7 @@ description: >-
   bound diff while preserving every observable behavior. Use this skill
   only when the user explicitly requests it. Requires a proven oracle.
   Never discovers removals or changes behavior.
-argument-hint: "apply <approved removal set and PR, branch, or diff>"
-disable-model-invocation: true
-disableModelInvocation: true
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to apply an approved removal set from a current
-  simplification audit.
 ---
 
 # Simplify apply
@@ -31,6 +24,9 @@ exact approved findings. Do not use this skill to audit. Refuse
 mixed selectors. Never silently invoke the audit owner.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

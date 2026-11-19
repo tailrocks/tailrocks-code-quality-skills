@@ -6,14 +6,7 @@ description: >-
   returns one verdict. Use this skill only when the user explicitly
   requests it. Never merges. Pushes only with separate explicit
   authorization.
-argument-hint: "<plans/NNN-name.md> [--deep] [--batch]"
-disable-model-invocation: true
-disableModelInvocation: true
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to execute an approved standalone plan in isolation and
-  review the result.
 ---
 
 # Improve execution
@@ -31,6 +24,9 @@ authorization bound to the exact remote and branch. Invoke
 this owner directly. No routing skill dispatches it.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

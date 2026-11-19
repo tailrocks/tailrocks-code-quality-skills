@@ -3,16 +3,11 @@ name: tailrocks-root-cause
 description: >-
   Diagnoses one proven defect, reported friction, or failed guarantee
   read-only, derives the bounded causal class, and returns practical
-  correction options. Use this skill only when the user explicitly
-  requests it. Never edits, contains harm, or approves its own design.
-argument-hint: "<proven defect, reported friction, or failed guarantee>"
-disable-model-invocation: true
-disableModelInvocation: true
+  correction options. Use this skill only when the user explicitly requests
+  it. Never edits, contains harm, or approves its own design. Use for
+  questions about why a defect occurred, what caused a failure, or how to
+  correct the defect class.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks why a defect occurred, what caused a failure, or how to
-  correct a defect class.
 ---
 
 # Root cause
@@ -30,6 +25,9 @@ not use this skill to edit, to contain harm, to approve a
 design, or to invoke `tailrocks-remediate` silently.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

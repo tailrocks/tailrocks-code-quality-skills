@@ -3,16 +3,11 @@ name: tailrocks-improve-audit
 description: >-
   Audits one repository read-only through bounded lanes and returns one
   evidence-ranked report with verified defects, direction options, and
-  rejected candidates. Use this skill only when the user explicitly
-  requests it. Never plans, implements, reconciles, or changes source.
-argument-hint: "[quick|correctness|perf|tests|tech-debt|dependencies|dx|docs|direction|agent-legibility|ux|tui|liquid-glass] [--deep] [--batch] [repository path]"
-disable-model-invocation: true
-disableModelInvocation: true
+  rejected candidates. Use this skill only when the user explicitly requests
+  it. Never plans, implements, reconciles, or changes source. Common
+  requests include a code-quality review or an improvement report with
+  evidence.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks for a repository audit, a code-quality review, or an
-  improvement report with evidence.
 ---
 
 # Improve audit
@@ -29,6 +24,9 @@ implement, reconcile, or seed delivery work. Security audits belong
 to `tailrocks-improve-security-audit`.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.
@@ -47,8 +45,9 @@ The skill accepts these arguments:
 
 - A selector names the coverage. Without a selector, the skill
   covers every common lane. `quick` bounds reconnaissance to named
-  hotspots and top candidates. One category name runs that lane
-  only. No other category spelling is valid.
+  hotspots and top candidates. Select one category with `correctness`,
+  `perf`, `tests`, `tech-debt`, `dependencies`, `dx`, `docs`, `direction`,
+  `agent-legibility`, `ux`, `tui`, or `liquid-glass`.
 - `--deep` selects exhaustive coverage with independent refutation.
   Refuse `quick --deep`. Refuse unknown categories. Refuse multiple
   primary selectors.
