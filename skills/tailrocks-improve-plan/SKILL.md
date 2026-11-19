@@ -5,14 +5,7 @@ description: >-
   standalone executor-ready plan under plans/ and its index row. Use this
   skill only when the user explicitly requests it. Never implements,
   seeds roadmap work, commits, or pushes.
-argument-hint: "<finding or change> [--deep] [--batch]"
-disable-model-invocation: true
-disableModelInvocation: true
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to turn a verified finding into an executor-ready
-  standalone plan.
 ---
 
 # Improve plan
@@ -31,6 +24,9 @@ to push. Invoke this owner directly. No routing skill
 dispatches it.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

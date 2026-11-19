@@ -1,19 +1,13 @@
 ---
 name: tailrocks-code-health
 description: >-
-  Establishes or tightens one explicitly approved shrink-only
-  code-health ratchet for architecture, lint, dependency, flake, defect,
-  documentation, or verification debt. Use this skill only when the user
-  explicitly requests it. Audit and measurement-only reporting belong to
-  tailrocks-code-health-audit.
-argument-hint: "<establish|tighten, approved debt class, metric, and paths>"
-disable-model-invocation: true
-disableModelInvocation: true
+  Establishes or tightens one explicitly approved shrink-only code-health
+  ratchet for architecture, lint, dependency, flake, defect, documentation,
+  or verification debt. Use this skill only when the user explicitly
+  requests it. Audit and measurement-only reporting belong to
+  tailrocks-code-health-audit. Use for requests to establish or tighten a
+  quality bound.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to establish or tighten a shrink-only quality bound or
-  ratchet.
 ---
 
 # Code health ratchet
@@ -31,6 +25,9 @@ shrink-only bound. Do not use this skill to audit, to adopt
 unrelated tools, or to absorb a regression.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

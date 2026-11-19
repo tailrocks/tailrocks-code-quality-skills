@@ -6,14 +6,7 @@ description: >-
   prevention. Use this skill only when the user explicitly requests it.
   Requires a current diagnosis contract. Never diagnoses, chooses, or
   approves the design.
-argument-hint: "fix <approved root-cause report and target>"
-disable-model-invocation: true
-disableModelInvocation: true
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to apply an approved root-cause correction from a current
-  diagnosis report.
 ---
 
 # Remediate
@@ -32,6 +25,9 @@ diagnosis report as mutation authority. Reject omitted,
 `analyze`, `rebuild`, mixed, and unknown selectors unchanged.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

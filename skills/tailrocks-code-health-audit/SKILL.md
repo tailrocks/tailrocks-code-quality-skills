@@ -2,17 +2,11 @@
 name: tailrocks-code-health-audit
 description: >-
   Audits one code-health debt class read-only: inventories gates and
-  exceptions, measures the baseline, evaluates shrink-only enforcement
-  and verification placement, and emits fixed-ID evidence. Use this skill
-  only when the user explicitly requests it. Never installs or edits.
-argument-hint: "<repository path and selected debt class>"
-disable-model-invocation: true
-disableModelInvocation: true
+  exceptions, measures the baseline, evaluates shrink-only enforcement and
+  verification placement, and emits fixed-ID evidence. Use this skill only
+  when the user explicitly requests it. Never installs or edits. Use for
+  requests to measure debt or review shrink-only enforcement.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks for a code-health audit, a debt measurement, or a
-  shrink-only enforcement review.
 ---
 
 # Code health audit
@@ -30,6 +24,9 @@ enforcement audit. Do not use this skill to establish or tighten
 a bound. Bound changes belong to `tailrocks-code-health`.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

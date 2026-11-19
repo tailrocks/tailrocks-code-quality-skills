@@ -2,17 +2,11 @@
 name: tailrocks-simplify-audit
 description: >-
   Audits one pull request, branch, or diff read-only for measured code
-  removals whose observable behavior can be preserved. Use this skill
-  only when the user explicitly requests it. Returns findings only.
-  Never edits, tests in, or applies them.
-argument-hint: "<PR, branch, or diff>"
-disable-model-invocation: true
-disableModelInvocation: true
+  removals whose observable behavior can be preserved. Use this skill only
+  when the user explicitly requests it. Returns findings only. Never edits,
+  tests in, or applies them. Use for requests to identify code a change can
+  remove while preserving behavior.
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks what code a change can remove without changing
-  behavior.
 ---
 
 # Simplify audit
@@ -29,6 +23,9 @@ request, branch, or diff. Do not use this skill to apply
 removals. Approved removals belong to `tailrocks-simplify`.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

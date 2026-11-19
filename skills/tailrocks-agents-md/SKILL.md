@@ -5,14 +5,7 @@ description: >-
   entries, instruction rules, or rule placement. Adds one rule only when
   the active task already authorizes that exact change. Audit and repair
   belong to the manual-only sibling skills.
-argument-hint: "<one rule and governed paths>"
-disable-model-invocation: false
-disableModelInvocation: false
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  Work touches agent instruction files, instruction rules, or rule
-  placement in a repository.
 ---
 
 # Agents instructions
@@ -32,6 +25,9 @@ skill for audits or topology repairs. Audits belong to
 `tailrocks-agents-md-sync`. Naming a sibling invokes nothing.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Obey the active user request first. If the request conflicts with a
 safety rule in this skill, stop. Report the conflict.

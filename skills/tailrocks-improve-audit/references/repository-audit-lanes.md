@@ -6,7 +6,7 @@ answers one question only. Drop candidates outside that question.
 
 ## Lane brief
 
-Subagents inherit nothing. Restate these items in every brief:
+Include each item below in the subagent's brief.
 
 1. The single lane question.
 2. The exact target: whole repository, branch diff against a named

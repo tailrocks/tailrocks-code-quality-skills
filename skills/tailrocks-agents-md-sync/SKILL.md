@@ -5,14 +5,7 @@ description: >-
   current audit: creates or repairs client entries, relocates or deletes
   approved rules, and verifies exact parity. Use this skill only when the
   user explicitly requests it. Adds no new policy.
-argument-hint: "<approved audit finding and repository path>"
-disable-model-invocation: true
-disableModelInvocation: true
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to apply an approved instruction repair from a current
-  audit report.
 ---
 
 # Agents instructions sync
@@ -29,6 +22,9 @@ finding. Do not use this skill to audit, to add policy, or to
 broaden scope.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

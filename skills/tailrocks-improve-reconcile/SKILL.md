@@ -5,14 +5,7 @@ description: >-
   truth, optionally re-verifying every row, and updates only
   plans/README.md. Use this skill only when the user explicitly requests
   it. Never edits plans, source, or roadmap items.
-argument-hint: "[--deep] [--batch] [repository path]"
-disable-model-invocation: true
-disableModelInvocation: true
 license: Apache-2.0
-user-invocable: true
-when_to_use: >-
-  User asks to reconcile the standalone plan backlog with current
-  repository truth.
 ---
 
 # Improve reconcile
@@ -32,6 +25,9 @@ roadmap items. Roadmap items belong to `tailrocks-reconcile`.
 Invoke this owner directly. No routing skill dispatches it.
 
 ## Before you start
+
+When choosing a model, reasoning effort, or delegation route, read
+[model and reasoning choices](references/model-routing.md).
 
 Use this skill only when the user explicitly requests it. A model
 must not select it from task similarity.

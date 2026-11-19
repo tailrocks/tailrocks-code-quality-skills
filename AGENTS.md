@@ -8,13 +8,17 @@ skill directory.
 
 - `plugin.json` is the portable manifest. It is the source
   of truth for name, version, and description.
-- `.claude-plugin/plugin.json` and
-  `.kimi-plugin/plugin.json` are host manifests. They repeat
-  the same name, version, and description.
+- Keep the Claude, Kimi, and Antigravity manifests and `package.json`
+  aligned with the portable manifest.
 - `skills/` holds one directory per skill id. Each directory
   holds its own `SKILL.md` file plus its own references.
 - `docs/` holds the package guides. Start at
-  `docs/README.md`.
+  [the package guide](docs/README.md).
+- Keep `adapters/opencode/index.js` and root `index.js` limited to
+  native skill registration. Keep runtime resources in the installed package.
+- Keep the OpenAI metadata and the model-routing reference with each skill.
+  Use portable frontmatter. Keep explicit-only rules in the procedure,
+  OpenAI policy metadata, and the generated registration entries.
 
 ## Rules for changes
 
@@ -39,6 +43,7 @@ skill directory.
 Run these checks from the repository root:
 
 ```sh
+python3 scripts/validate-package.py
 alint check
 ```
 
